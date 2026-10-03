@@ -1,0 +1,549 @@
+{
+ "am": [
+  "ፕሮጀክት",
+  "ፕሮጀክ",
+  "ፕሮጄክት",
+  "ፕሮጄክ",
+  "ፕሮጅክት",
+  "ፕሮጅክ",
+  "ፕሮጀክቶች",
+  "ፕሮጀክቱ",
+  "በፕሮጀክ",
+  "ከፕሮጀክ",
+  "የፕሮጀክ",
+  "ለፕሮጀክ",
+  "በፕሮጄክ",
+  "የፕሮጄክ"
+ ],
+ "ar": [
+  "مشروع",
+  "المشروع",
+  "بالمشروع",
+  "للمشروع",
+  "لمشروع",
+  "بمشروع",
+  "ومشروع",
+  "والمشروع",
+  "مشاريع",
+  "المشاريع",
+  "بالمشاريع",
+  "للمشاريع",
+  "ومشاريع",
+  "والمشاريع",
+  "مشروعات",
+  "المشروعات",
+  "بروجكت",
+  "بروجيكت",
+  "البروجكت",
+  "البروجيكت",
+  "بالبروجكت",
+  "للبروجكت"
+ ],
+ "az": [
+  "layihə",
+  "layihe",
+  "layih",
+  "lahiyə",
+  "lahiye",
+  "lahiy",
+  "proyekt",
+  "proekt"
+ ],
+ "bg": [
+  "проект",
+  "проекта",
+  "проектът",
+  "проекти",
+  "проектите",
+  "proekt",
+  "proekta",
+  "proekti"
+ ],
+ "bn": [
+  "প্রজেক্ট",
+  "প্রোজেক্ট",
+  "প্রজেকট",
+  "প্রোজেকট",
+  "প্রকল্প",
+  "প্রজেক্ট ফোল্ডার",
+  "প্রোজেক্ট ফোল্ডার"
+ ],
+ "cs": [
+  "projekt",
+  "projekty",
+  "projektu",
+  "projektech",
+  "projektem",
+  "projektů",
+  "projektum"
+ ],
+ "da": [
+  "projekt",
+  "projektet",
+  "projekter",
+  "projekterne",
+  "projektmappe",
+  "projektmapper"
+ ],
+ "de": [
+  "projekt",
+  "projekte",
+  "projekten",
+  "projekts",
+  "projektordner"
+ ],
+ "el": [
+  "πρότζεκτ",
+  "προτζεκτ",
+  "πρόζεκτ",
+  "προζεκτ",
+  "πρότζεκτς",
+  "προτζεκτς"
+ ],
+ "es": [
+  "proyecto",
+  "proyectos",
+  "el proyecto",
+  "mi proyecto",
+  "mis proyectos"
+ ],
+ "et": [
+  "projekt",
+  "projektid",
+  "projekti",
+  "projektis",
+  "projekte",
+  "tööruum",
+  "tooruum"
+ ],
+ "fa": [
+  "پروژه",
+  "پروژه‌ها",
+  "پروژه ها",
+  "پروژه‌ی",
+  "پروژهٔ",
+  "پروجکت"
+ ],
+ "fi": [
+  "projekt",
+  "projekti",
+  "projektit",
+  "projektin",
+  "projektiin",
+  "projektissa",
+  "projektista",
+  "projekteja",
+  "projekteihin"
+ ],
+ "fil": [
+  "proyekto",
+  "proyek",
+  "prodyekto",
+  "project",
+  "projek",
+  "projekto"
+ ],
+ "fr": [
+  "projet",
+  "projets",
+  "le projet",
+  "mon projet",
+  "mes projets",
+  "un projet",
+  "dans le projet",
+  "au projet"
+ ],
+ "he": [
+  "פרויקט",
+  "פרוייקט",
+  "הפרויקט",
+  "הפרוייקט",
+  "בפרויקט",
+  "בפרוייקט",
+  "לפרויקט",
+  "לפרוייקט",
+  "מהפרויקט",
+  "מהפרוייקט",
+  "מפרויקט",
+  "מפרוייקט",
+  "שהפרויקט",
+  "שהפרוייקט",
+  "והפרויקט",
+  "והפרוייקט",
+  "ופרויקט",
+  "ופרוייקט",
+  "שבפרויקט",
+  "שבפרוייקט",
+  "שלפרויקט",
+  "כפרויקט"
+ ],
+ "hi": [
+  "प्रोजेक्ट",
+  "प्रॉजेक्ट",
+  "प्रोजैक्ट",
+  "परियोजना",
+  "project"
+ ],
+ "hr": [
+  "projekt",
+  "projekti",
+  "projekta",
+  "projektu",
+  "projektima"
+ ],
+ "hu": [
+  "projekt",
+  "projektek",
+  "projektbe",
+  "projektben",
+  "projektből",
+  "projektbol",
+  "projekthez",
+  "projektem",
+  "projektjeim",
+  "projektmappa",
+  "munkaterület",
+  "munkaterulet"
+ ],
+ "hy": [
+  "նախագիծ",
+  "նախագծ",
+  "պրոյեկտ",
+  "պրոեկտ",
+  "պռոյեկտ"
+ ],
+ "id": [
+  "proyek",
+  "projek",
+  "project",
+  "projects",
+  "proyeknya",
+  "projectnya"
+ ],
+ "is": [
+  "verkefn",
+  "prójekt",
+  "projekt",
+  "verkefnamöpp",
+  "verkefnamopp"
+ ],
+ "it": [
+  "progetto",
+  "progetti",
+  "progettino",
+  "progettini"
+ ],
+ "ja": [
+  "プロジェクト",
+  "ぷろじぇくと",
+  "ﾌﾟﾛｼﾞｪｸﾄ",
+  "プロジェクトフォルダ",
+  "プロジェクト一覧"
+ ],
+ "ka": [
+  "პროექტ",
+  "პროეკტ",
+  "პროექტებ",
+  "proeqt",
+  "proekt"
+ ],
+ "kk": [
+  "жоба",
+  "joba",
+  "zhoba",
+  "проект",
+  "proekt"
+ ],
+ "km": [
+  "គម្រោង",
+  "គំរោង",
+  "ប្រូជេក"
+ ],
+ "lo": [
+  "ໂປຣເຈັກ",
+  "ໂປຣເຈັກທ໌",
+  "ໂປເຈັກ",
+  "ໂປຣເຈກ",
+  "ໂປເຈກ",
+  "ໂປຣເຈັດ",
+  "ໂປເຈັດ",
+  "ໂຄງການ"
+ ],
+ "lt": [
+  "projektas",
+  "projekte",
+  "projektą",
+  "projekta",
+  "projektų",
+  "projektu",
+  "projektai",
+  "projektus",
+  "projektuose",
+  "projektui",
+  "projekto",
+  "projektams",
+  "projektais"
+ ],
+ "lv": [
+  "projekts",
+  "projekta",
+  "projektā",
+  "projektu",
+  "projektam",
+  "projekti",
+  "projektos",
+  "projektus"
+ ],
+ "mk": [
+  "проект",
+  "проектот",
+  "проекти",
+  "проектите",
+  "proekt",
+  "proektot",
+  "proekti",
+  "projekt",
+  "projektot"
+ ],
+ "mn": [
+  "төсөл",
+  "төсл",
+  "проект",
+  "tusul",
+  "tosol",
+  "proekt"
+ ],
+ "ms": [
+  "projek",
+  "projeknya",
+  "projek-projek",
+  "project",
+  "folder projek",
+  "projek saya",
+  "projek aku"
+ ],
+ "my": [
+  "ပရောဂျက်",
+  "ပရိုဂျက်",
+  "ပရော့ဂျက်",
+  "ပရို့ဂျက်",
+  "ပရောဂျတ်",
+  "ပေရာဂ်က္",
+  "ပ႐ိုဂ်က္",
+  "ပရိုဂ်က္"
+ ],
+ "nb": [
+  "prosjekt",
+  "prosjektet",
+  "prosjekter",
+  "prosjektene",
+  "prosjektmappe",
+  "prosjektmappa"
+ ],
+ "ne": [
+  "प्रोजेक्ट",
+  "प्रोजेक्त",
+  "प्रोजेक",
+  "परियोजना",
+  "प्रजेक्ट",
+  "projekt",
+  "project"
+ ],
+ "nl": [
+  "project",
+  "projecten",
+  "projectje",
+  "projectmap",
+  "projectfolder",
+  "werkruimte"
+ ],
+ "pl": [
+  "projekt",
+  "projektu",
+  "projekty",
+  "projektów",
+  "projektow",
+  "projektem",
+  "projekcie",
+  "projektach"
+ ],
+ "pt": [
+  "projeto",
+  "projetos",
+  "espaço de trabalho",
+  "espaco de trabalho",
+  "workspace"
+ ],
+ "ro": [
+  "proiect",
+  "proiectul",
+  "proiecte",
+  "proiectele",
+  "proiectului",
+  "proiectelor",
+  "spațiu de lucru",
+  "spatiu de lucru",
+  "spațiul de lucru",
+  "spatiul de lucru"
+ ],
+ "ru": [
+  "проект",
+  "проекты",
+  "проекта",
+  "проекте",
+  "проектов",
+  "проектах",
+  "проэкт",
+  "проектик"
+ ],
+ "si": [
+  "ප්‍රොජෙක්",
+  "ප්රොජෙක්",
+  "ප්‍රෝජෙක්",
+  "ප්රෝජෙක්",
+  "ප්‍රජෙක්",
+  "ප්රජෙක්",
+  "ව්‍යාපෘති",
+  "ව්යාපෘති",
+  "project ek",
+  "project ekak"
+ ],
+ "sk": [
+  "projekt",
+  "projekty",
+  "projektu",
+  "projekte",
+  "projektov",
+  "projektom",
+  "projektoch",
+  "projektík",
+  "projektik"
+ ],
+ "sl": [
+  "projekt",
+  "projekta",
+  "projektu",
+  "projekti",
+  "projektov",
+  "projekte",
+  "projektom",
+  "projektih"
+ ],
+ "sq": [
+  "projekt",
+  "projekti",
+  "projektin",
+  "projektit",
+  "projektet",
+  "projekte",
+  "projektet e mia",
+  "projektin tim"
+ ],
+ "sr": [
+  "projekat",
+  "projekta",
+  "projektu",
+  "projekti",
+  "projekte",
+  "projektima",
+  "projektom",
+  "projekata",
+  "пројекат",
+  "пројекта",
+  "пројекту",
+  "пројекти",
+  "пројекте",
+  "пројектима",
+  "пројектом",
+  "пројеката"
+ ],
+ "sv": [
+  "projekt"
+ ],
+ "sw": [
+  "mradi",
+  "miradi"
+ ],
+ "th": [
+  "โปรเจกต์",
+  "โปรเจกท์",
+  "โปรเจค",
+  "โปรเจ็ค",
+  "โปรเจ็กต์",
+  "โปรเจคท์",
+  "โปรเจ็คท์",
+  "โปรเจ็คต์"
+ ],
+ "tr": [
+  "proje",
+  "projeler",
+  "projem",
+  "projemi",
+  "projeme",
+  "projemde",
+  "projesi",
+  "projesine",
+  "projesinde",
+  "projeye",
+  "projede",
+  "projeden",
+  "projeyi",
+  "projenin",
+  "projelerim",
+  "projelerime",
+  "projelere"
+ ],
+ "uk": [
+  "проєкт",
+  "проект"
+ ],
+ "ur": [
+  "پروجیکٹ",
+  "پراجیکٹ",
+  "پروجکٹ",
+  "پراجکٹ",
+  "پروجیکٹس",
+  "پراجیکٹس",
+  "پروجیکٹوں",
+  "پراجیکٹوں",
+  "project"
+ ],
+ "uz": [
+  "loyih",
+  "loyix",
+  "proyekt",
+  "proekt",
+  "лойиҳ",
+  "лойих",
+  "проект"
+ ],
+ "vi": [
+  "dự án",
+  "du an",
+  "project",
+  "thư mục dự án",
+  "thu muc du an"
+ ],
+ "zh-CN": [
+  "项目",
+  "这个项目",
+  "那个项目",
+  "该项目",
+  "项目里",
+  "项目中",
+  "项目下",
+  "项目文件夹",
+  "项目空间",
+  "我的项目"
+ ],
+ "zh-TW": [
+  "專案",
+  "這個專案",
+  "那個專案",
+  "我的專案",
+  "專案資料夾",
+  "專案名稱",
+  "專案裡",
+  "專案中"
+ ]
+}

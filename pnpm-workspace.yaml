@@ -1,0 +1,7 @@
+# pnpm 12 — 설치 대본(postinstall)을 돌려도 되는 부품만 여기 적는다
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
+onlyBuiltDependencies:
+  - esbuild
+  - unrs-resolver

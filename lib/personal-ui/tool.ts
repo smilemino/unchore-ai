@@ -1,0 +1,13 @@
+import type { ToolDef } from "../tools/defs";
+export const PERSONAL_UI: ToolDef = {
+  name: "personal_ui",
+  description: [
+    "Build or change this member's own Unchore screen and features when they ask. First read; then save using the returned revision as base. Write full HTML, CSS and JavaScript, not a fixed theme. Preserve existing requested features. Restore with a history version (null = original Unchore). A save is a draft: the browser checks it before activation; don't claim it is active until read confirms.",
+    'HTML/CSS describe the whole personal screen. Include exactly one visible empty div id="uc-content" with room for native chat/settings (at least 280x260px, responsive on 360px phones). Native chat, approvals and secrets appear over this slot. Use responsive CSS grid/flex and any new widgets. No external scripts, URLs, iframes, forms, HTML event handlers or passwords. Buttons use data-action="name" and inputs use name="name"; actions include {action, values, value}. Escape user text before putting it in HTML.',
+    "JavaScript runs in a Web Worker: no DOM, browser storage, network, imports or eval. UC.render(html,css) replaces markup; UC.onAction(fn) receives actions; await UC.get(key) returns {value,revision}, default {value:null,revision:0}; await UC.set(key,value,revision) saves custom widget JSON data across devices (throws on conflict). UC.open('/app', '/app?c=UUID', '/app/settings', '/app/automations', '/app/notes') opens the trusted feature. UC.draft(text) fills the native chat composer for the member to send. It never sends or approves. No access to secrets, billing, other members or arbitrary backend operations. Build calculators, dashboards, saved checklists and custom workflows. External actions use existing native chat tools with normal approval. Explain any connection still needed. HTML/CSS render first; JS is optional.",
+  ].join(" "),
+  parameters: { type: "object", properties: {
+    action: { type: "string", enum: ["read", "save", "restore"] }, base: { type: "number" }, version: { type: ["number", "null"] },
+    design: { type: "object", properties: { title: { type: "string" }, html: { type: "string" }, css: { type: "string" }, js: { type: "string" }, native: { type: "object", properties: { fontSize: { type: "number", minimum: 14, maximum: 24 }, background: { type: "string", description: "six-digit hex color, e.g. #faf8ff" }, foreground: { type: "string", description: "six-digit hex color" } }, additionalProperties: false } }, required: ["title", "html", "css", "js"], additionalProperties: false },
+  }, required: ["action"] },
+};

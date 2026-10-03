@@ -1,0 +1,583 @@
+{
+ "am": [
+  "ማጠቃለያ",
+  "መደምደሚያ",
+  "ድምዳሜ",
+  "አጭር ማጠቃለያ",
+  "በአጭሩ"
+ ],
+ "ar": [
+  "الخلاصة",
+  "الخلاصه",
+  "خلاصة",
+  "الملخص",
+  "ملخص",
+  "باختصار",
+  "النتيجة",
+  "الاستنتاج",
+  "الجواب",
+  "الإجابة",
+  "الاجابة",
+  "الإجابة المختصرة"
+ ],
+ "az": [
+  "nəticə",
+  "netice",
+  "xülasə",
+  "xulase",
+  "qısaca",
+  "qisaca",
+  "qısası",
+  "qisasi",
+  "yekun"
+ ],
+ "bg": [
+  "заключение",
+  "в заключение",
+  "резюме",
+  "обобщение",
+  "накратко",
+  "извод"
+ ],
+ "bn": [
+  "উপসংহার",
+  "সারসংক্ষেপ",
+  "সারাংশ",
+  "সংক্ষেপে",
+  "মূল কথা",
+  "সিদ্ধান্ত",
+  "এক কথায়"
+ ],
+ "cs": [
+  "závěr",
+  "zaver",
+  "shrnutí",
+  "shrnuti",
+  "ve zkratce",
+  "v kostce",
+  "stručně",
+  "strucne",
+  "krátce",
+  "kratce",
+  "odpověď",
+  "odpoved",
+  "výsledek",
+  "vysledek",
+  "verdikt"
+ ],
+ "da": [
+  "konklusion",
+  "resumé",
+  "resume",
+  "opsummering",
+  "sammenfatning",
+  "kort sagt",
+  "kort fortalt",
+  "bundlinje"
+ ],
+ "de": [
+  "fazit",
+  "zusammenfassung",
+  "kurzfassung",
+  "kurz gesagt",
+  "kurz",
+  "in kürze",
+  "kurzantwort",
+  "kurze antwort",
+  "das wichtigste",
+  "ergebnis",
+  "unterm strich",
+  "auf den punkt",
+  "tl;dr"
+ ],
+ "el": [
+  "συμπέρασμα",
+  "συμπερασμα",
+  "σύνοψη",
+  "συνοψη",
+  "περίληψη",
+  "περιληψη",
+  "συνοπτικά",
+  "συνοπτικα",
+  "εν συντομία",
+  "εν συντομια",
+  "εν ολίγοις",
+  "εν ολιγοις",
+  "με λίγα λόγια",
+  "με λιγα λογια"
+ ],
+ "es": [
+  "conclusión",
+  "conclusion",
+  "resumen",
+  "en resumen",
+  "en síntesis",
+  "en sintesis",
+  "en pocas palabras",
+  "respuesta corta",
+  "respuesta rápida",
+  "respuesta rapida",
+  "lo esencial"
+ ],
+ "et": [
+  "kokkuvõte",
+  "kokkuvote",
+  "lühikokkuvõte",
+  "luhikokkuvote",
+  "järeldus",
+  "jareldus",
+  "lühidalt",
+  "luhidalt",
+  "kokkuvõttes",
+  "kokkuvottes"
+ ],
+ "fa": [
+  "نتیجه",
+  "نتیجه‌گیری",
+  "نتیجه گیری",
+  "نتیجه نهایی",
+  "خلاصه",
+  "خلاصه کلام",
+  "جمع‌بندی",
+  "جمعبندی",
+  "جمع بندی",
+  "چکیده",
+  "پاسخ کوتاه",
+  "جواب کوتاه",
+  "در یک جمله"
+ ],
+ "fi": [
+  "yhteenveto",
+  "johtopäätös",
+  "johtopaatos",
+  "tiivistelmä",
+  "tiivistelma",
+  "lyhyesti",
+  "lopputulos",
+  "loppupäätelmä",
+  "loppupaatelma"
+ ],
+ "fil": [
+  "konklusyon",
+  "kongklusyon",
+  "buod",
+  "sa kabuuan",
+  "sa madaling salita"
+ ],
+ "fr": [
+  "conclusion",
+  "résumé",
+  "resume",
+  "en bref",
+  "bref",
+  "en résumé",
+  "en resume",
+  "l'essentiel",
+  "à retenir",
+  "a retenir",
+  "synthèse",
+  "synthese"
+ ],
+ "he": [
+  "סיכום",
+  "לסיכום",
+  "מסקנה",
+  "השורה התחתונה",
+  "בשורה התחתונה",
+  "תקציר",
+  "בקצרה",
+  "בתמצית",
+  "תשובה קצרה"
+ ],
+ "hi": [
+  "निष्कर्ष",
+  "सारांश",
+  "संक्षेप में",
+  "सार",
+  "मुख्य बात"
+ ],
+ "hr": [
+  "zaključak",
+  "zakljucak",
+  "sažetak",
+  "sazetak",
+  "ukratko"
+ ],
+ "hu": [
+  "összefoglalás",
+  "osszefoglalas",
+  "összefoglaló",
+  "osszefoglalo",
+  "összefoglalva",
+  "osszefoglalva",
+  "összegzés",
+  "osszegzes",
+  "lényeg",
+  "lenyeg",
+  "a lényeg",
+  "a lenyeg",
+  "röviden",
+  "roviden",
+  "következtetés",
+  "kovetkeztetes",
+  "konklúzió",
+  "konkluzio"
+ ],
+ "hy": [
+  "եզրակացություն",
+  "ամփոփում",
+  "համառոտ",
+  "հակիրճ",
+  "կարճ ասած"
+ ],
+ "id": [
+  "kesimpulan",
+  "ringkasan",
+  "intinya",
+  "singkatnya",
+  "rangkuman"
+ ],
+ "is": [
+  "niðurstaða",
+  "nidurstada",
+  "niðurstaðan",
+  "nidurstadan",
+  "samantekt",
+  "í stuttu máli",
+  "i stuttu mali",
+  "stutta svarið",
+  "stutta svarid",
+  "yfirlit"
+ ],
+ "it": [
+  "conclusione",
+  "in conclusione",
+  "in sintesi",
+  "sintesi",
+  "riepilogo",
+  "riassunto",
+  "in breve",
+  "in poche parole",
+  "risposta breve",
+  "risposta rapida"
+ ],
+ "ja": [
+  "結論",
+  "まとめ",
+  "要約",
+  "要点",
+  "概要"
+ ],
+ "ka": [
+  "დასკვნა",
+  "შეჯამება",
+  "მოკლედ",
+  "რეზიუმე",
+  "მთავარი"
+ ],
+ "kk": [
+  "қорытынды",
+  "корытынды",
+  "қысқаша",
+  "кыскаша",
+  "түйін",
+  "туйин",
+  "нәтиже",
+  "натиже",
+  "қысқаша мазмұны",
+  "кыскаша мазмуны"
+ ],
+ "km": [
+  "សេចក្តីសន្និដ្ឋាន",
+  "សេចក្ដីសន្និដ្ឋាន",
+  "សន្និដ្ឋាន",
+  "សង្ខេប",
+  "សេចក្តីសង្ខេប",
+  "សេចក្ដីសង្ខេប"
+ ],
+ "lo": [
+  "ສະຫຼຸບ",
+  "ສະຫລຸບ",
+  "ບົດສະຫຼຸບ",
+  "ບົດສະຫລຸບ",
+  "ສະຫຼຸບຫຍໍ້",
+  "ສະຫລຸບຫຍໍ້",
+  "ໂດຍສະຫຼຸບ"
+ ],
+ "lt": [
+  "išvada",
+  "isvada",
+  "išvados",
+  "santrauka",
+  "apibendrinimas",
+  "apibendrinant",
+  "trumpai",
+  "trumpai tariant",
+  "esmė",
+  "esme",
+  "reziumė"
+ ],
+ "lv": [
+  "secinājums",
+  "secinajums",
+  "kopsavilkums",
+  "īsumā",
+  "isuma",
+  "rezumējums",
+  "rezumejums",
+  "galvenais",
+  "būtība",
+  "butiba"
+ ],
+ "mk": [
+  "заклучок",
+  "резиме",
+  "накратко",
+  "во кратки црти"
+ ],
+ "mn": [
+  "дүгнэлт",
+  "хураангуй",
+  "товчоор",
+  "товч",
+  "гол санаа",
+  "үр дүн"
+ ],
+ "ms": [
+  "kesimpulan",
+  "ringkasan",
+  "rumusan",
+  "intipati"
+ ],
+ "my": [
+  "နိဂုံး",
+  "နိဂုံးချုပ်",
+  "အနှစ်ချုပ်",
+  "အကျဉ်းချုပ်",
+  "အဓိကအချက်"
+ ],
+ "nb": [
+  "konklusjon",
+  "oppsummering",
+  "sammendrag",
+  "kort fortalt",
+  "kort sagt",
+  "kort oppsummert",
+  "kortversjon"
+ ],
+ "ne": [
+  "निष्कर्ष",
+  "सारांश",
+  "छोटकरीमा"
+ ],
+ "nl": [
+  "conclusie",
+  "samenvatting",
+  "samengevat",
+  "kortom",
+  "kort gezegd",
+  "kort antwoord",
+  "in het kort"
+ ],
+ "pl": [
+  "wniosek",
+  "wnioski",
+  "podsumowanie",
+  "odpowiedź",
+  "odpowiedz",
+  "krótka odpowiedź",
+  "krotka odpowiedz",
+  "w skrócie",
+  "w skrocie",
+  "krótko",
+  "krotko",
+  "tl;dr",
+  "konkluzja",
+  "najważniejsze",
+  "najwazniejsze",
+  "sedno"
+ ],
+ "pt": [
+  "conclusão",
+  "conclusao",
+  "resumo",
+  "em resumo",
+  "resumindo",
+  "em suma",
+  "em poucas palavras",
+  "resposta curta",
+  "resposta direta",
+  "resposta rápida",
+  "resposta rapida"
+ ],
+ "ro": [
+  "concluzie",
+  "concluzia",
+  "în concluzie",
+  "in concluzie",
+  "rezumat",
+  "în rezumat",
+  "in rezumat",
+  "pe scurt",
+  "răspuns scurt",
+  "raspuns scurt",
+  "sinteză",
+  "sinteza",
+  "esențial",
+  "esential"
+ ],
+ "ru": [
+  "вывод",
+  "итог",
+  "итоги",
+  "итого",
+  "в итоге",
+  "кратко",
+  "коротко",
+  "суть",
+  "резюме",
+  "главное",
+  "в двух словах",
+  "заключение"
+ ],
+ "si": [
+  "නිගමනය",
+  "සාරාංශය",
+  "සාරාංශ",
+  "කෙටියෙන්",
+  "සැකෙවින්",
+  "අවසාන නිගමනය"
+ ],
+ "sk": [
+  "záver",
+  "zaver",
+  "zhrnutie",
+  "súhrn",
+  "suhrn",
+  "v skratke",
+  "stručne",
+  "strucne"
+ ],
+ "sl": [
+  "zaključek",
+  "zakljucek",
+  "povzetek",
+  "na kratko",
+  "bistvo",
+  "sklep"
+ ],
+ "sq": [
+  "përfundim",
+  "perfundim",
+  "përfundimi",
+  "perfundimi",
+  "përmbledhje",
+  "permbledhje",
+  "shkurt",
+  "shkurtimisht",
+  "konkluzion",
+  "konkluzioni"
+ ],
+ "sr": [
+  "zaključak",
+  "zakljucak",
+  "rezime",
+  "sažetak",
+  "sazetak",
+  "ukratko",
+  "закључак",
+  "резиме",
+  "укратко"
+ ],
+ "sv": [
+  "slutsats",
+  "sammanfattning",
+  "sammanfattningsvis",
+  "summering",
+  "kort sagt",
+  "i korthet",
+  "kortfattat",
+  "i korta drag"
+ ],
+ "sw": [
+  "hitimisho",
+  "muhtasari",
+  "kwa ufupi",
+  "kwa kifupi",
+  "jibu fupi"
+ ],
+ "th": [
+  "สรุป",
+  "ข้อสรุป",
+  "บทสรุป",
+  "สรุปสั้นๆ",
+  "สรุปสั้น ๆ",
+  "ใจความสำคัญ"
+ ],
+ "tr": [
+  "sonuç",
+  "sonuc",
+  "özet",
+  "ozet",
+  "kısaca",
+  "kisaca",
+  "kısacası",
+  "kisacasi"
+ ],
+ "uk": [
+  "висновок",
+  "висновки",
+  "підсумок",
+  "підсумки",
+  "коротко",
+  "резюме",
+  "головне",
+  "суть",
+  "у двох словах"
+ ],
+ "ur": [
+  "نتیجہ",
+  "خلاصہ",
+  "لب لباب",
+  "حاصل کلام"
+ ],
+ "uz": [
+  "xulosa",
+  "qisqacha",
+  "natija",
+  "qisqacha mazmun",
+  "хулоса",
+  "қисқача",
+  "натижа"
+ ],
+ "vi": [
+  "kết luận",
+  "ket luan",
+  "tóm tắt",
+  "tom tat",
+  "tóm lại",
+  "tom lai",
+  "tổng kết",
+  "tong ket"
+ ],
+ "zh-CN": [
+  "结论",
+  "核心结论",
+  "总结",
+  "摘要",
+  "要点",
+  "概要",
+  "一句话总结",
+  "简而言之"
+ ],
+ "zh-TW": [
+  "結論",
+  "摘要",
+  "總結",
+  "重點",
+  "要點",
+  "簡答",
+  "簡單來說",
+  "一句話結論"
+ ]
+}

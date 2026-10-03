@@ -1,0 +1,10 @@
+{
+  "name": "unchore-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Unchore worker: scheduler heartbeat + real-browser recipes.",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node main.mjs" },
+  "dependencies": { "playwright-core": "1.63.0" }
+}

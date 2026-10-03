@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unchore</string>
+    <string name="voice_channel">Voice mode</string>
+    <string name="voice_channel_desc">Shown while voice mode is on</string>
+    <string name="voice_title">Unchore voice mode</string>
+    <string name="voice_text">Keeps listening and answering while you use other apps</string>
+    <string name="updates_channel">Reminders and results</string>
+    <string name="updates_channel_desc">Reminders you set, finished automations and apps Unchore built for you</string>
+    <string name="pip_listening">🎤 Listening</string>
+    <string name="pip_thinking">💭 Thinking</string>
+    <string name="pip_speaking">🔊 Speaking</string>
+    <string name="pip_off">Voice mode ended</string>
+    <string name="stop_listen">Stop and listen</string>
+    <string name="stop_listen_desc">Stops reading and listens right away</string>
+    <string name="end_voice">End</string>
+    <string name="down_title">Can\'t reach Unchore right now</string>
+    <string name="down_text">Trying again every 10 seconds — the page opens by itself when it\'s back.\nAnswers being written keep going on the server.</string>
+    <string name="retry_now">Try again now</string>
+    <string name="go_home">Back to start</string>
+    <string name="back_reopening">Opening the start page again · press back again to leave</string>
+    <string name="back_again">Press back again to leave</string>
+    <string name="downloading">Downloading — open it from the notification</string>
+    <string name="download_failed">Couldn\'t download</string>
+    <string name="google_connect_browser">Connect Google services on unchore.ai in your browser — Google doesn\'t allow it inside apps</string>
+    <string name="no_browser">No browser found to sign in</string>
+    <string name="shortcut_new_chat">New chat</string>
+    <string name="shortcut_automations">Automations</string>
+    <string name="mic_needed">Voice mode needs the microphone — allow it in the app\'s settings</string>
+</resources>

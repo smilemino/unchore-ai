@@ -1,0 +1,512 @@
+{
+ "am": [
+  "ዝርዝር",
+  "ዝርዝሮች",
+  "ዝርዝር (ቴክኒካዊ)",
+  "ቴክኒካዊ ዝርዝሮች",
+  "ቴክኒካል ዝርዝሮች",
+  "ዝርዝር መረጃ"
+ ],
+ "ar": [
+  "التفاصيل",
+  "تفاصيل",
+  "التفاصيل التقنية",
+  "تفاصيل تقنية",
+  "التفاصيل (تقنية)",
+  "تفاصيل (تقنية)",
+  "التفاصيل الفنية",
+  "تفاصيل فنية"
+ ],
+ "az": [
+  "ətraflı",
+  "etrafli",
+  "ətraflı (texniki)",
+  "etrafli (texniki)",
+  "təfərrüatlar",
+  "teferruatlar",
+  "detallar",
+  "texniki detallar",
+  "texniki təfərrüatlar",
+  "texniki teferruatlar"
+ ],
+ "bg": [
+  "подробности",
+  "подробности (технически)",
+  "технически подробности",
+  "детайли",
+  "технически детайли",
+  "подробна информация"
+ ],
+ "bn": [
+  "বিস্তারিত",
+  "বিস্তারিত (প্রযুক্তিগত)",
+  "প্রযুক্তিগত বিস্তারিত",
+  "প্রযুক্তিগত তথ্য",
+  "কারিগরি বিবরণ",
+  "বিস্তারিত তথ্য"
+ ],
+ "cs": [
+  "podrobnosti",
+  "podrobnosti (technické)",
+  "podrobnosti (technicke)",
+  "technické podrobnosti",
+  "technicke podrobnosti",
+  "technické detaily",
+  "technicke detaily",
+  "detaily",
+  "detaily (technické)",
+  "detaily (technicke)"
+ ],
+ "da": [
+  "detaljer",
+  "detaljer (teknisk)",
+  "detaljer (tekniske)",
+  "tekniske detaljer",
+  "teknisk"
+ ],
+ "de": [
+  "details",
+  "details (technisch)",
+  "technische details",
+  "einzelheiten",
+  "hintergrund",
+  "technischer hintergrund",
+  "hintergrund (technisch)",
+  "technische hinweise"
+ ],
+ "el": [
+  "λεπτομέρειες",
+  "λεπτομερειες",
+  "λεπτομέρειες (τεχνικές)",
+  "λεπτομερειες (τεχνικες)",
+  "τεχνικές λεπτομέρειες",
+  "τεχνικες λεπτομερειες",
+  "λεπτομέρειες (τεχνικά)"
+ ],
+ "es": [
+  "detalles",
+  "detalles (técnicos)",
+  "detalles (tecnicos)",
+  "detalles técnicos",
+  "detalles tecnicos",
+  "más detalles",
+  "información técnica",
+  "datos técnicos"
+ ],
+ "et": [
+  "üksikasjad",
+  "uksikasjad",
+  "üksikasjad (tehniline)",
+  "tehnilised üksikasjad",
+  "detailid",
+  "tehnilised detailid",
+  "tehniline info",
+  "tehniline teave",
+  "täpsemalt",
+  "tapsemalt",
+  "lisainfo"
+ ],
+ "fa": [
+  "جزئیات",
+  "جزییات",
+  "جزئیات (فنی)",
+  "جزییات (فنی)",
+  "جزئیات فنی",
+  "جزییات فنی",
+  "توضیحات فنی",
+  "توضیحات تکمیلی",
+  "اطلاعات فنی"
+ ],
+ "fi": [
+  "yksityiskohdat",
+  "yksityiskohdat (tekninen)",
+  "tekniset tiedot",
+  "tekniset yksityiskohdat",
+  "lisätiedot",
+  "lisatiedot",
+  "tarkemmat tiedot"
+ ],
+ "fil": [
+  "detalye",
+  "mga detalye",
+  "detalye (teknikal)",
+  "mga detalye (teknikal)",
+  "teknikal na detalye",
+  "mga teknikal na detalye"
+ ],
+ "fr": [
+  "détails",
+  "details",
+  "détails (technique)",
+  "détails (techniques)",
+  "details (techniques)",
+  "détails techniques",
+  "details techniques",
+  "précisions techniques",
+  "precisions techniques"
+ ],
+ "he": [
+  "פרטים",
+  "פרטים (טכני)",
+  "פרטים טכניים",
+  "פירוט",
+  "פירוט טכני",
+  "הפרטים"
+ ],
+ "hi": [
+  "विवरण",
+  "विवरण (तकनीकी)",
+  "तकनीकी विवरण",
+  "तकनीकी जानकारी",
+  "विस्तृत जानकारी"
+ ],
+ "hr": [
+  "detalji",
+  "detalji (tehnički)",
+  "detalji (tehnicki)",
+  "tehnički detalji",
+  "tehnicki detalji",
+  "pojedinosti",
+  "tehničke pojedinosti",
+  "tehnicke pojedinosti"
+ ],
+ "hu": [
+  "részletek",
+  "reszletek",
+  "részletek (technikai)",
+  "reszletek (technikai)",
+  "technikai részletek",
+  "technikai reszletek",
+  "részletek (műszaki)",
+  "reszletek (muszaki)",
+  "műszaki részletek",
+  "muszaki reszletek",
+  "technikai háttér",
+  "technikai hatter"
+ ],
+ "hy": [
+  "մանրամասներ",
+  "մանրամասն",
+  "մանրամասնություններ",
+  "մանրամասներ (տեխնիկական)",
+  "տեխնիկական մանրամասներ"
+ ],
+ "id": [
+  "detail",
+  "detail (teknis)",
+  "detail teknis",
+  "rincian",
+  "rincian teknis",
+  "keterangan teknis"
+ ],
+ "is": [
+  "nánar",
+  "nanar",
+  "nánar (tæknilegt)",
+  "nanar (taeknilegt)",
+  "nánari upplýsingar",
+  "nanari upplysingar",
+  "tæknilegar upplýsingar",
+  "taeknilegar upplysingar",
+  "tæknileg atriði",
+  "tæknilegt",
+  "taeknilegt"
+ ],
+ "it": [
+  "dettagli",
+  "dettagli (tecnici)",
+  "dettagli tecnici",
+  "note tecniche",
+  "approfondimento"
+ ],
+ "ja": [
+  "詳細",
+  "詳細（技術）",
+  "詳細(技術)",
+  "詳細（技術的）",
+  "技術的な詳細",
+  "技術的詳細"
+ ],
+ "ka": [
+  "დეტალები",
+  "დეტალები (ტექნიკური)",
+  "ტექნიკური დეტალები",
+  "დეტალური ინფორმაცია",
+  "ტექნიკური ნაწილი"
+ ],
+ "kk": [
+  "толығырақ",
+  "толыгырак",
+  "толығырақ (техникалық)",
+  "техникалық мәліметтер",
+  "техникалык малиметтер",
+  "техникалық бөлім",
+  "мәліметтер",
+  "толық ақпарат"
+ ],
+ "km": [
+  "ព័ត៌មានលម្អិត",
+  "ព័ត៌មានលំអិត",
+  "លម្អិត",
+  "ព័ត៌មានលម្អិត (បច្ចេកទេស)",
+  "លម្អិត (បច្ចេកទេស)",
+  "ព័ត៌មានបច្ចេកទេស"
+ ],
+ "lo": [
+  "ລາຍລະອຽດ",
+  "ລາຍລະອຽດ (ເຕັກນິກ)",
+  "ລາຍລະອຽດ(ເຕັກນິກ)",
+  "ລາຍລະອຽດເຕັກນິກ",
+  "ລາຍລະອຽດທາງເຕັກນິກ",
+  "ຂໍ້ມູນທາງເຕັກນິກ"
+ ],
+ "lt": [
+  "detalės",
+  "detales",
+  "detalės (techninės)",
+  "techninės detalės",
+  "technines detales",
+  "techninė informacija",
+  "išsamiau",
+  "issamiau",
+  "išsamiau (techniškai)",
+  "smulkiau",
+  "išsami informacija"
+ ],
+ "lv": [
+  "detaļas",
+  "detalas",
+  "detaļas (tehniskas)",
+  "detalas (tehniskas)",
+  "tehniskās detaļas",
+  "tehniskas detalas",
+  "tehniskā informācija",
+  "tehniska informacija",
+  "sīkāka informācija",
+  "sikaka informacija",
+  "sīkāk",
+  "sikak"
+ ],
+ "mk": [
+  "детали",
+  "детали (технички)",
+  "технички детали"
+ ],
+ "mn": [
+  "дэлгэрэнгүй",
+  "дэлгэрэнгүй (техник)",
+  "дэлгэрэнгүй мэдээлэл",
+  "техникийн дэлгэрэнгүй",
+  "техникийн мэдээлэл",
+  "нарийвчилсан мэдээлэл"
+ ],
+ "ms": [
+  "butiran",
+  "butiran (teknikal)",
+  "butiran teknikal",
+  "perincian",
+  "perincian teknikal",
+  "maklumat teknikal"
+ ],
+ "my": [
+  "အသေးစိတ်",
+  "အသေးစိတ် (နည်းပညာ)",
+  "နည်းပညာဆိုင်ရာ အသေးစိတ်",
+  "အသေးစိတ်အချက်အလက်"
+ ],
+ "nb": [
+  "detaljer",
+  "detaljer (teknisk)",
+  "detaljer (tekniske)",
+  "tekniske detaljer",
+  "teknisk",
+  "flere detaljer"
+ ],
+ "ne": [
+  "विवरण",
+  "विवरण (प्राविधिक)",
+  "प्राविधिक विवरण",
+  "थप विवरण"
+ ],
+ "nl": [
+  "details",
+  "details (technisch)",
+  "technische details",
+  "technische toelichting",
+  "toelichting"
+ ],
+ "pl": [
+  "szczegóły",
+  "szczegoly",
+  "szczegóły (techniczne)",
+  "szczegoly (techniczne)",
+  "szczegóły techniczne",
+  "szczegoly techniczne",
+  "informacje techniczne"
+ ],
+ "pt": [
+  "detalhes",
+  "detalhes (técnicos)",
+  "detalhes (tecnicos)",
+  "detalhes técnicos",
+  "detalhes tecnicos",
+  "informações técnicas",
+  "informacoes tecnicas"
+ ],
+ "ro": [
+  "detalii",
+  "detalii (tehnic)",
+  "detalii (tehnice)",
+  "detalii tehnice",
+  "amănunte",
+  "amanunte",
+  "informații tehnice",
+  "informatii tehnice"
+ ],
+ "ru": [
+  "подробности",
+  "подробности (технические)",
+  "технические подробности",
+  "технические детали",
+  "детали",
+  "подробнее"
+ ],
+ "si": [
+  "විස්තර",
+  "විස්තර (තාක්ෂණික)",
+  "තාක්ෂණික විස්තර",
+  "වැඩි විස්තර",
+  "සවිස්තර",
+  "තාක්ෂණික කරුණු"
+ ],
+ "sk": [
+  "podrobnosti",
+  "podrobnosti (technické)",
+  "podrobnosti (technicke)",
+  "technické podrobnosti",
+  "technicke podrobnosti",
+  "detaily",
+  "technické detaily",
+  "technicke detaily"
+ ],
+ "sl": [
+  "podrobnosti",
+  "podrobnosti (tehnično)",
+  "podrobnosti (tehnicno)",
+  "tehnične podrobnosti",
+  "tehnicne podrobnosti",
+  "tehnično ozadje",
+  "tehnicno ozadje"
+ ],
+ "sq": [
+  "detaje",
+  "detajet",
+  "detaje (teknike)",
+  "detajet (teknike)",
+  "detaje teknike",
+  "detajet teknike",
+  "hollësi",
+  "hollësitë",
+  "hollesi",
+  "hollesite"
+ ],
+ "sr": [
+  "detalji",
+  "detalji (tehnički)",
+  "detalji (tehnicki)",
+  "tehnički detalji",
+  "tehnicki detalji",
+  "pojedinosti",
+  "детаљи",
+  "технички детаљи"
+ ],
+ "sv": [
+  "detaljer",
+  "detaljer (tekniska)",
+  "detaljer (teknik)",
+  "tekniska detaljer",
+  "teknisk information",
+  "tekniska uppgifter"
+ ],
+ "sw": [
+  "maelezo",
+  "maelezo ya kiufundi",
+  "maelezo (kiufundi)",
+  "maelezo zaidi",
+  "kwa undani",
+  "undani"
+ ],
+ "th": [
+  "รายละเอียด",
+  "รายละเอียด (เทคนิค)",
+  "รายละเอียดทางเทคนิค",
+  "รายละเอียดเชิงเทคนิค",
+  "ข้อมูลทางเทคนิค"
+ ],
+ "tr": [
+  "ayrıntılar",
+  "ayrintilar",
+  "detaylar",
+  "teknik ayrıntılar",
+  "teknik ayrintilar",
+  "teknik detaylar",
+  "ayrıntılar (teknik)",
+  "detaylar (teknik)"
+ ],
+ "uk": [
+  "деталі",
+  "деталі (технічні)",
+  "технічні деталі",
+  "подробиці",
+  "подробиці (технічні)",
+  "технічні подробиці"
+ ],
+ "ur": [
+  "تفصیلات",
+  "تفصیل",
+  "تکنیکی تفصیلات",
+  "تفصیلات (تکنیکی)"
+ ],
+ "uz": [
+  "tafsilotlar",
+  "tafsilotlar (texnik)",
+  "texnik tafsilotlar",
+  "batafsil",
+  "batafsil ma'lumot",
+  "тафсилотлар",
+  "техник тафсилотлар",
+  "батафсил"
+ ],
+ "vi": [
+  "chi tiết",
+  "chi tiet",
+  "chi tiết (kỹ thuật)",
+  "chi tiết (kĩ thuật)",
+  "chi tiết kỹ thuật",
+  "chi tiết kĩ thuật",
+  "chi tiet ky thuat",
+  "thông tin kỹ thuật"
+ ],
+ "zh-CN": [
+  "详情",
+  "详细信息",
+  "细节",
+  "技术细节",
+  "技术详情",
+  "详情（技术）",
+  "详情(技术)",
+  "详细说明",
+  "技术说明"
+ ],
+ "zh-TW": [
+  "詳細資訊",
+  "細節",
+  "詳細說明",
+  "詳細內容",
+  "詳情",
+  "技術細節",
+  "技術說明",
+  "細節（技術）",
+  "細節(技術)"
+ ]
+}

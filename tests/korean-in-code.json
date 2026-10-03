@@ -1,0 +1,531 @@
+{
+ "_read_me": "Korean written in code (not in lib/locales or lib/words). Each file says why: «words» = the meaning is also in lib/words/<id>.json for every other language (the file, or «via», imports it); «koreanOnly» = marks or Korea-only features. A new Korean phrase that users say or type needs its meaning in lib/words/src.json (then: node scripts/i18n.mjs auto) before it goes here. tests/words.test.ts reads this.",
+ "app/api/automations/route.ts": {
+  "words": [
+   "price_below"
+  ],
+  "literals": [
+   "/내려|떨어|싸지|낮아|drop|cheaper|below|falls?/i"
+  ]
+ },
+ "components/Chat.tsx": {
+  "koreanOnly": "AI-written [done]/[완료] and decision/결정 protocol marks, not user command words",
+  "literals": [
+   "/\\n\\s*\\[(done|완료)\\]\\s*$/i",
+   "/```(?:decide|decision|secret|결정|비밀값)|<<<|\\[\\[(?:approve|confirm)/i"
+  ]
+ },
+ "components/Markdown.tsx": {
+  "koreanOnly": "box names the AI writes (copy/복사, decide/결정) — marks, not something users say",
+  "literals": [
+   "/^(copy|복사)$/i",
+   "/^(decide|decision|결정)$/i"
+  ]
+ },
+ "components/Settings.tsx": {
+  "koreanOnly": "Korean city names in the time-zone line, shown only in Korean",
+  "literals": [
+   "뉴욕",
+   "도쿄",
+   "런던",
+   "로스앤젤레스",
+   "베를린",
+   "상하이",
+   "서울",
+   "세계 표준시",
+   "시드니",
+   "싱가포르",
+   "파리"
+  ]
+ },
+ "lib/ai.ts": {
+  "words": [
+   "heavy_task",
+   "risk_task"
+  ],
+  "literals": [
+   "/```|코드|분석|계획|전략|비교|설계|보고서|문서|엑셀|표로|요약해|번역|왜 |원인|검토|논문|계약|\\b(code|debug|analy[sz]e|plan|strategy|compare|design|report|spreadsheet|summari[sz]e|translate|why|review|contract|essay|proof)\\b/i",
+   "/아프|아파|통증|숨[이 ]?(차|막|쉬)|호흡|가슴|심장|두근|어지러|기절|의식|마비|저려|저리|처졌|처지|어눌|꼬여|경련|발작|출혈|피가|피를|토하|구토|열이|고열|삼켰|삼킨|먹었는데|복용|약을|약 |처방|부작용|알레르기|두드러기|부었|붓고|임신|응급|119|병원|증상|다쳤|화상|골절|자살|죽고 싶|자해|우울|중독|돈|송금|이체|입금|출금|결제|환불|카드|계좌|통장|대출|이자|세금|세무|부가세|연말정산|급여|월급|퇴직금|정산|수당|투자|주식|코인|보험|위약금|계약|보증금|소송|고소|법|변호사|합의|벌금|저작권|해지|사기|피싱|도용|오류|버그|에러|장애|손상|증명|반례|재고|동시|이중|중복 (결제|출금|계산)|환자|쓰러|마취|가스|깨지 못|안 깨|숨을 안|해킹|보안|비밀번호|암호|개인정보|유출|주민번호|인증|악성|바이러스|권한|로그인|싼 |저렴|빠른 (AI|모델)|쉬운 (일|거|질문)|간단한 (일|질문)|무시하고|그대로 따르|fast/i"
+  ]
+ },
+ "lib/answer-fold.ts": {
+  "words": [
+   "heading_details"
+  ],
+  "literals": [
+   "^[ \\t#>*_-]*(?:Details|근거[ \\t]*\\([ \\t]*기술[ \\t]*\\)|자세한[ \\t]*내용|"
+  ]
+ },
+ "lib/chat-setup.ts": {
+  "words": [
+   "connect_verb",
+   "disconnect_verb",
+   "answer_with"
+  ],
+  "literals": [
+   "/(연결|connect)/i",
+   "/(클로드|claude|ai|에이아이|열쇠|키|key|gpt|지피티|openrouter|오픈라우터|gemini|제미나이|grok|그록|deepseek|딥시크|kimi|키미)/i",
+   "/(끊|해제|disconnect|unplug)/i",
+   "/(열쇠|키|key|api|openrouter|오픈라우터|gemini|제미나이|grok|그록|deepseek|딥시크|kimi|키미)/i",
+   "/(gpt|지피티|챗gpt|openai|오픈ai)/i",
+   "/(클로드|claude)/i",
+   "/(지피티|gpt|chatgpt|챗gpt)/i",
+   "/(제미나이|제미니|gemini)/i",
+   "/(그록|grok)/i",
+   "/(딥시크|deepseek)/i",
+   "/(키미|kimi)/i",
+   "/(로|으로)\\s*(답|대답|해|알려|물어|써|말해|바꿔)|\\b(use|using|ask|answer with|reply with|via|switch to)\\b/i"
+  ]
+ },
+ "lib/conv-line.ts": {
+  "words": [
+   "heading_conclusion"
+  ],
+  "literals": [
+   "/^(결론|Conclusion|Summary)\\s*[:：]/i"
+  ]
+ },
+ "lib/defend.ts": {
+  "words": [
+   "refusal"
+  ],
+  "literals": [
+   "/(도와드릴 수 없|도와드리기 어렵|제공할 수 없|제공해 드릴 수 없|할 수 없습니다|하기 어렵습니다|도움을 드릴 수 없|can'?t (help|assist|provide)|cannot (help|assist|provide|comply)|i'?m (sorry|not able|unable)|against (my|our|the) (policy|guidelines)|i (can not|cannot) )/i"
+  ]
+ },
+ "lib/face.ts": {
+  "words": [
+   "face_builder",
+   "face_student",
+   "face_shop",
+   "face_senior",
+   "face_worker",
+   "name_words"
+  ],
+  "via": "lib/face-words.ts",
+  "literals": [
+   "/\\b(api|github|git|deploy|repo|typescript|python|docker|kubernetes|sdk|cli|startup|founder|saas|devops|llm|agent)\\b|개발|코딩|코드|깃허브|배포|창업|스타트업/i",
+   "/\\b(exam|homework|assignment|class(es)?|semester|university|college|school|thesis|midterm|finals?)\\b|시험|과제|수업|학교|대학|학기|수능|논문|중간고사|기말/i",
+   "/\\b(grandchild(ren)?|grandkids?|retired|retirement|pension|my (medication|pills))\\b|손주|손자|손녀|은퇴|연금|약 먹|혈압|병원 예약|복용/i",
+   "/\\b(my (shop|store|restaurant|cafe|salon)|customers?|reviews?|orders?|inventory|small business)\\b|가게|매장|장사|손님|리뷰|주문|재고|식당|카페|미용실/i",
+   "/\\b(my boss|meeting|colleague|office|report|deadline at work|coworker|team lead)\\b|회사|회의|보고서|상사|팀장|출근|퇴근|업무/i",
+   "/^(?:저는|전|제 이름은|나는|난|그냥)\\s*/",
+   "/\\s*(?:(?:이?라고|으?로)\\s*)?불러\\s*(?:주세요|줘요|줘|주시면\\s*돼요|주시면\\s*됩니다|주면\\s*돼)?$/",
+   "/(?:입니다|이에요|예요|이요)$/",
+   "/\\s*님$/"
+  ]
+ },
+ "lib/files/pdf.ts": {
+  "koreanOnly": "picks the Korean font for Korean text",
+  "literals": [
+   "/[가-힣]/"
+  ]
+ },
+ "lib/files/pptx.ts": {
+  "koreanOnly": "Korean font name for East Asian text in slides",
+  "literals": [
+   "\"/><a:ea typeface=\"맑은 고딕\"/><a:cs typeface=\"\"/></a:"
+  ]
+ },
+ "lib/files/ttf.ts": {
+  "koreanOnly": "error text inside the font reader (never shown to members)",
+  "literals": [
+   " 표가 없습니다: ",
+   "글꼴에 "
+  ]
+ },
+ "lib/glossary.ts": {
+  "words": [
+   "glossary_ask"
+  ],
+  "literals": [
+   "/(라고|이라고|라는\\s*말|로|으로)\\s*(하지|쓰지|부르지|표현하지|말하지|적지)\\s*(마|말)/",
+   "/(표현|용어|낱말|단어|말)을?\\s*(쓰지|하지)\\s*(마|말)/",
+   "/대신\\s*\\S.{0,24}(라고|이라고|으로|로)\\s*(써|불러|해|적어)/"
+  ]
+ },
+ "lib/google-lookup.ts": {
+  "words": [
+   "google_calendar",
+   "google_mail",
+   "google_drive"
+  ],
+  "literals": [
+   "/드라이브|문서|시트|스프레드시트|파일|drive|document|\\bdoc\\b|sheet|spreadsheet|slides|file|documento|ドキュメント|文档/i",
+   "/메일|이메일|편지함|받은 ?편지|답장|mail|inbox|e-?mail|gmail|reply to|unread|correo|courriel|メール|邮件/i",
+   "/일정|캘린더|달력|약속|회의|미팅|스케줄|calendar|schedule|meeting|appointment|agenda|event|busy|free (on|at|this)|agenda|termin|réunion|reunión|予定|会議|日程|日历|会议/i",
+   "/드라이브|구글 ?(문서|시트|슬라이드)|google ?(drive|docs?|sheets?|slides)/i"
+  ]
+ },
+ "lib/i18n.ts": {
+  "koreanOnly": "the Korean language's own name in the language list",
+  "literals": [
+   "한국어"
+  ]
+ },
+ "lib/judge.ts": {
+  "words": [
+   "example_word",
+   "send_detail_ask"
+  ],
+  "literals": [
+   "/(링크|주소|날짜|시간|시각|이름|번호|가격|금액|상품명|모델명|기준|환율)[^.!\\n]{0,24}(보내|알려|적어|말씀해|정해)\\s*주(세요|시면|실래요)/",
+   "/\\s*\\((예|e\\.g\\.)[^)]*\\)\\s*$/i",
+   "/^(\\(?\\s*(예|예시|e\\.g\\.|for example|like)\\b|\\(?\\s*예\\s*[:：)]|“|\")/i",
+   "/^(yes|예|y|true)$/i",
+   "/\\s*(?:예|예시|e\\.g\\.|for example)\\s*[:：]\\s*.*$/i",
+   "/예를 들어|예시|예\\s*[:：]|(이?라고|처럼)\\s*(답|말씀|적어|보내)|답해\\s*주|\\b(for example|e\\.g\\.|reply (with|like)|just (say|reply|type)|answer with)\\b/i"
+  ]
+ },
+ "lib/memory-import.ts": {
+  "koreanOnly": "sentence endings when splitting an imported memory list (Korean endings besides . ! ? 。)",
+  "literals": [
+   "/([다요음함임됨죠까]|[.!?。])[\"'」』)]*$/",
+   "/^[^:：]{1,30}\\s\\d{1,3}\\s?(개|items?)$/i"
+  ]
+ },
+ "lib/memory.ts": {
+  "words": [
+   "memory_forget",
+   "health",
+   "faith_politics",
+   "password_word",
+   "bank_word",
+   "not_right"
+  ],
+  "literals": [
+   "/고쳐|바꿔|수정해|틀렸|잘못\\s*기억|\\b(fix|correct|change|update) (that|this|it|my)\\b|\\bthat'?s (wrong|not right)\\b|\\bwrong\\b/i",
+   "/(password|passwd|비밀번호|비번|api[_ -]?key|token)\\s*[:=]?\\s*\\S{4,}/i",
+   "/(은행|계좌|예금주|bank|account|iban|routing)[^\\d\\n]{0,10}\\d[\\d-]{7,}\\d/i",
+   "/[가-힣]{2,}|[a-z0-9][a-z0-9._-]{1,}|(?:(?![a-z가-힣])[\\p{L}\\p{M}]){2,}/gu",
+   "/^[가-힣]{3,}$/",
+   "/교회|성당|종교|정당|선거|투표|\\b(church|religion|election|political party|vote)\\b/i",
+   "/병원|질병|진료|수술|처방|입원|우울|당뇨|혈압|\\b(diagnos|prescription|surgery|hospital|depress|diabetes|therapy)/i",
+   "/잊어|지워|기억에서\\s*빼|기억하지\\s*마|\\bforget\\b|\\bdon'?t remember\\b|\\bdelete (that|this) memory\\b/i",
+   "/\\b\\d{1,5}\\s+(?:[A-Z][\\w'-]*\\s+){1,3}(?:[Ss]treet|St\\.?|[Aa]venue|Ave\\.?|[Rr]oad|Rd\\.?|[Bb]oulevard|Blvd\\.?|[Ll]ane|Ln\\.?|[Dd]rive|Dr\\.?|[Cc]ourt|Ct\\.?|[Ww]ay|[Pp]lace|Pl\\.?)(?![\\w])|[가-힣]+(?:시|군|구)\\s+[가-힣0-9]+(?:로|길|대로)\\s*\\d+(?:-\\d+)?/",
+   "/(?:송금|이체|입금|출금|빌려|\\b(?:wired?|transferr?(?:ed|ing)?|sent|remitt?(?:ed)?|lent|borrowed|owe[sd]?|loan(?:ed)?)\\b)[^\\n]{0,40}?(?:[$€£₩¥]\\s?\\d|\\d[\\d,.]*\\s*(?:원|만\\s*원|달러|dollars?|usd|eur|euros?|pounds?|gbp)(?![a-z가-힣]))|(?:[$€£₩¥]\\s?\\d[\\d,.]*|\\d[\\d,.]*\\s*(?:원|만\\s*원|달러|dollars?|usd|eur|euros?|pounds?|gbp))[^\\n]{0,40}?(?:송금|이체|입금|\\b(?:wired?|transferr?(?:ed|ing)?|sent|lent|borrowed|owe[sd]?)\\b)/i"
+  ]
+ },
+ "lib/nightly-review.ts": {
+  "words": [
+   "confused",
+   "not_right"
+  ],
+  "literals": [
+   "/그게 아니|아직(도)? 안|안 되는데|틀렸|잘못|다시 해|not what i|still (not|doesn'?t|isn'?t)|doesn'?t work|that'?s wrong|you'?re wrong|try again/i",
+   "/쉽게|무슨 말|이해가 안|모르겠|어려워|simpler|plain(er)? (words|english)|what do you mean|don'?t understand|too technical|eli5/i"
+  ]
+ },
+ "lib/pick-floor.ts": {
+  "words": [
+   "not_right"
+  ],
+  "literals": [
+   "/(아직도|아직\\s*(안|못)|그게\\s*아니|그거\\s*아니|그런\\s*뜻이?\\s*아니|아니라(고|니까)?|다시\\s*(해|말|설명|봐)|엉뚱|틀렸|틀린|잘못|이해\\s*(를\\s*)?(못|안)|맥락|제대로|말\\s*했잖|했잖아|안\\s*됐|안\\s*되잖|답답|왜\\s*(안|이렇|그렇|또))/"
+  ]
+ },
+ "lib/plain-gate.ts": {
+  "words": [
+   "verbatim_ask"
+  ],
+  "literals": [
+   "/(원문|코드 그대로|로그|영어로)|\\b(verbatim|raw|exact code|the code|logs?|in english)\\b/i",
+   "/\\n(?:근거\\(기술\\)|Details \\(technical\\))/i",
+   "/```(copy|복사)[\\s\\S]*?```/gi",
+   "/\\n\\**\\s*(?:근거\\s*\\(기술\\)|Details \\(technical\\))/i"
+  ]
+ },
+ "lib/privacy.ts": {
+  "words": [
+   "bank_word",
+   "password_word",
+   "my_name_is"
+  ],
+  "literals": [
+   "/((?:\\b(?:password|passwd|pw|pin|otp)\\b|비밀번호|비번|암호|인증번호)\\s*(?:은|는|이|가|:|=|is)?\\s*)\\S{3,}/gi",
+   "/((?:제|내|저의|나의)\\s*이름은\\s*)[가-힣]{2,3}/g",
+   "/(?:은행|계좌|예금주|\\bbank\\b|\\baccount\\b|\\bacct\\b|\\biban\\b|\\brouting\\b|\\bswift\\b)[^\\d\\n]{0,12}[A-Z]{0,4}\\d[\\d\\s-]{6,}\\d/gi",
+   "/[가-힣]+(?:로|길)\\s*\\d+(?:-\\d+)?(?:번길\\s*\\d+)?|\\b\\d{1,5}\\s+(?:[A-Z][a-z]+\\s){1,3}(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Lane|Ln|Dr|Drive)\\b\\.?/g"
+  ]
+ },
+ "lib/project-move.ts": {
+  "words": [
+   "project_word",
+   "project_move",
+   "project_out"
+  ],
+  "literals": [
+   "/프로젝트|\\bprojects?\\b/i",
+   "프로젝트|\\bprojects?\\b|",
+   "/옮겨|옮기|옮길|넣어|이동|(으로|로)\\s*보내|\\b(move|put|file)\\s+(this|it|that|the chat|this chat|this conversation)\\b/i",
+   "/프로젝트\\s*(가|는|이|은)?\\s*(아니|아냐|아님|잘못|틀렸)|프로젝트에서\\s*빼|\\b(wrong|not the right|not this|not that) project\\b|\\bnot (in|part of|for) (the|this|that) project\\b|\\bdoesn'?t belong (in|to)\\b|\\b(take|remove) (it|this|the chat|this chat) (out of|from) (the|this|that) project\\b/i"
+  ]
+ },
+ "lib/recipes/index.ts": {
+  "koreanOnly": "Korea-only recipes (Danawa prices in won, Korean news example)",
+  "literals": [
+   "danawa_lowest(query, must_words, min_price) — lowest price for a product in Korea. must_words = words that must be in the product name (model core); min_price = a price the real product can't be below (filters cases/accessories). e.g. {\"query\":\"에어팟 프로 3\",\"must_words\":[\"에어팟프로3\"],\"min_price\":250000}.",
+   "news(query, lang) — newest headlines for a topic (Google News). e.g. {\"query\":\"전세사기\",\"lang\":\"ko\"}.",
+   "page_watch(url, must_words) — reads a public web page and returns the first line containing ALL must_words (e.g. a notice board or a product page). Pick words from the page text itself (a product or notice name) — prices drawn by scripts may not be in it. Use when a site has no API. e.g. {\"url\":\"https://example.com/notice\",\"must_words\":[\"모집\"]}.",
+   "에어팟 프로 3",
+   "에어팟프로3",
+   "원 (",
+   "사주"
+  ]
+ },
+ "lib/reminders.ts": {
+  "words": [
+   "remind_ask",
+   "time_every",
+   "time_when",
+   "time_unit",
+   "remind_stop",
+   "stop_bare",
+   "price_below",
+   "price_above",
+   "schedule_ask",
+   "remind_decline"
+  ],
+  "literals": [
+   "(\\d[\\d,]*(?:\\.\\d+)?)\\s*(만)?",
+   "/(예약|알림|반복)[^\\n]{0,6}?(그만|멈춰|중지|취소|꺼)/",
+   "/(오전|오후|아침|저녁|밤|새벽|낮)\\s*\\d{1,2}\\s*시|\\d{1,2}\\s*시\\s*(반|\\d{1,2}\\s*분)?|\\d{1,2}\\s*월\\s*\\d{1,2}\\s*일|내일|모레|다음\\s*주|이번\\s*주|[월화수목금토일]요일|하루\\s*전|\\d+\\s*일\\s*전|\\b(\\d{1,2}(:\\d{2})?\\s*(am|pm)|\\d{1,2}:\\d{2}|tomorrow|tonight|next week|(mon|tues|wednes|thurs|fri|satur|sun)day|the day before|\\d+\\s*days? before)\\b/i",
+   "/<<<(?:quiet|조용히)>>>/g",
+   "/<<<(?:remind-stop|예약끝)>>>/g",
+   "/<<<(?:remind|예약)\\s+(every|after|daily|at|days|monthly|yearly)=([0-9:T@-]+[mhd]?)(?:\\s+for=(\\d+[mhd]))?\\s*>>>\\s*([\\s\\S]*?)\\s*<<<(?:end|끝)>>>/g",
+   "/\\d+\\s*(분|시간|일)\\s*(마다|간격|뒤|후|있다가)|매\\s*(일|시간|주|달|월|년|해)|날마다|달마다|해마다|\\d{1,2}\\s*시(\\s*\\d{1,2}\\s*분)?\\s*(에|마다)/",
+   "/^\\s*(?:title|제목)\\s*[:：]\\s*(.+)\\n/i",
+   "/^\\s*(그만|멈춰)\\s*[.!~]*\\s*$/",
+   "/알려|알림|챙겨|깨워|켜\\s*(줘|주세요|주실)|remind|alert|notify|ping me|let me know|tell me (?:when|if)|(turn|switch) (it |that )?on|set (it |that )?up/i",
+   "\\s*(?:원|달러|불|usd|krw|dollars?)?\\s*(?:을|를|이|가|에서|로|으로)?\\s*(",
+   "title: (2–5 words the user will see, in their language — e.g. «혈압약 알림», «Client follow-ups»)",
+   "넘|이상|초과|오르|올라|위로|above|over|exceeds?|more than|rises? (?:above|over|to)|goes (?:above|over)",
+   "아래|이하|밑|미만|떨어지|내려가|below|under|less than|drops? (?:below|under|to)|falls? (?:below|under|to)",
+   "/예약\\s*(해|걸어|을\\s*걸|으로|해서)|알아서[^\\n]{0,20}(예약|일정)|\\b(schedule (it|this|that)|set (a|the) schedule|set it to run)\\b/i",
+   "/[?？]|(나요|까요|가요|을까|ㄹ까)\\s*[.!~]*\\s*$/",
+   "/(예약|알림)(은|도|은요)?\\s*(하지\\s*않|안\\s*(해|하|걸)|필요\\s*없|빼\\s*(줘|주세요))/",
+   "낮|싸|적|아래|밑|내려|떨어",
+   "높|비싸|많|위|넘|오르|올라",
+   "/<<<quiet>>>|\\bquiet\\b|\\bsilent|\\bnothing\\b|\\bdon'?t (?:send|tell|message|notify)|보내지 않|알리지 않|조용히|넘어가/i",
+   "\\s*(?:원|달러|불|usd|krw|dollars?)?\\s*보다\\s*(?:더\\s*)?(",
+   "/(알려|알리|챙겨|깨워)\\s*(주지|주시지)?\\s*(마|말)|알림\\s*(은|도)?\\s*(필요\\s*없|하지\\s*마|보내지\\s*마|끄|꺼)|\\b(don'?t|do not|never|no need to)\\s+(tell|notify|alert|remind|ping|message)\\b/i",
+   "/원리|설명|어떻게\\s*(되|돼|작동|동작|오|와)|왜\\s|방법|\\b(explain|how (does|do|would|will) (it|the|an|this|that|alerts?|reminders?)|why)\\b/i"
+  ]
+ },
+ "lib/set-marks.ts": {
+  "koreanOnly": "an example answer inside the AI's guide, next to an English one",
+  "literals": [
+   "When they ask to change one, answer in one short natural line in their words (e.g. «네, 어둡게 바꿀게요.» / «Sure, switching to dark.») and put the mark on the last line. Never mention marks, «the app» or «requests» — the confirmation appears under your answer by itself:"
+  ]
+ },
+ "lib/taste.ts": {
+  "words": [
+   "yes_short",
+   "no_short"
+  ],
+  "literals": [
+   "/(을|를|이|가|은|는|에|의|로|으로|와|과|도|만|에서|에게|까지|부터)$/u",
+   "/^(no|nope|nah|don'?t|not now|아니(오|요)?|아뇨|싫어요?|하지 ?마(세요)?|no gracias|non|nein|いいえ|不(要|用)?|нет|hayır|não)[\\s.!~]*$/iu",
+   "/^(yes|yeah|yep|yup|sure|ok(ay)?|please( do)?|go( ahead)?|do it|sounds good|예|네|넵|넹|응|좋아요?|좋습니다|그래요?|그렇게 ?해|해 ?주세요|진행(해 ?주세요|해)?|sí|si|oui|ja|はい|是|好的?|да|evet|sim)[\\s.!~]*$/iu",
+   "그걸",
+   "그럼",
+   "까요",
+   "드릴까요",
+   "어떨까요",
+   "이걸",
+   "이렇게",
+   "제가",
+   "좋을까요",
+   "지금",
+   "할까요"
+  ]
+ },
+ "lib/title.ts": {
+  "koreanOnly": "the title:/제목: mark the AI writes",
+  "literals": [
+   "/^(제목|title)\\s*[:：]\\s*/i"
+  ]
+ },
+ "lib/turn-mark.ts": {
+  "words": [
+   "offer_ask",
+   "user_done",
+   "ask_withdrawn",
+   "done_order"
+  ],
+  "literals": [
+   "/[?？؟]|<<<pick>>>|\\b(yes or no|shall I|should I|would you like|do you want)\\b|할까요|드릴까요|주세요|알려 ?주/i",
+   "/^\\s*\\[(done|완료)\\]\\s*$/i",
+   "/```[ \\t]*(decide|decision|결정)[ \\t]*\\n[\\s\\S]*?\\S[\\s\\S]*?```/i",
+   "/^(?:이\\s*(?:일|건|대화|채팅)창?(?:은|는)?\\s*)?(?:완료|끝|끝났|끝냈|마무리|다\\s*됐|다\\s*했|종료)[\\s\\S]{0,12}$|(?:완료|끝)\\s*(?:으로|로)?\\s*(?:표시|처리|체크)\\s*(?:해|하|좀|부탁)/",
+   "/\\b(?:not|don'?t|never|yet|show|tell|check|list)\\b|하지\\s*마|말고|말아|않|안\\s*(?:돼|됐|했|끝)|못\\s|아직|(?:나요|니|냐|는지|은지|인지|을까|까요|가요|죠|지요)$|알려|보여|말해|찾아|확인|것만|거만|된\\s*것|된\\s*거|[「」『』\"“”]/i",
+   "/\\b(?:not yet|still (?:running|waiting|left|working)|in progress|couldn'?t|could not|failed|remaining)\\b|아직|남아\\s*있|남았|남은\\s*(?:일|것|게)|못\\s*(?:했|합|끝|하)|하지\\s*못|도는\\s*중|진행\\s*중|기다리는\\s*중|실패/i",
+   "/\\bnothing (?:for you to|you need to) (?:do|decide)|\\bno need (?:for you )?to (?:decide|answer|reply)|\\bi won'?t ask (?:again|further)|(?:하실|정하실|답하실)\\s*(?:일|것|게)\\s*[:：]?\\s*[이가은는도]?\\s*없|더\\s*(?:는\\s*)?여쭙지\\s*않|정하실\\s*필요[가는]?\\s*없|여쭐\\s*(?:것|게|일)[이가은는도]?\\s*없|다르면\\s*(?:한\\s*마디|말씀)\\s*만|\\b(?:just )?let me know if (?:you(?:'d)? (?:want|like) (?:it )?)?(?:anything )?different/i",
+   "/(?:완료|끝)\\s*(?:으로|로)?\\s*(?:표시|처리|체크)\\s*(?:해\\s*(?:주|줘|도)|하(?:세요|셔도)|좀|부탁)|완료\\s*해\\s*(?:주세요|줘|도\\s*(?:돼|됩니다))/",
+   "/\\b(?:don'?t|do not|not yet|never|later|cancel)\\b|하지\\s*마|말고|말아|아직|않|취소|번복|보류|라고|이라고|라는|라며/i"
+  ]
+ },
+ "lib/voice/marker.ts": {
+  "koreanOnly": "examples of «let's stop» in the AI's voice guide, next to English, Spanish and Japanese ones — the AI understands every language (<<<voice-end>>>)",
+  "literals": [
+   "- If the user wants to stop talking now — to end this voice conversation, in any language and any wording (e.g. «that's all for now», «let's stop here», «bye for now», «그만할게요», «대화 종료하겠습니다», «terminemos aquí», «じゃあ、終わりにします») — answer with one short goodbye in their language and end with <<<voice-end>>>; the app then closes voice mode by itself. Not when they want you to stop or cancel a task or a reminder, to stop reading this answer, when they talk about the feature itself, or when it's unclear — then just answer."
+  ]
+ },
+ "skills/unchore-defend/scripts/defend.mjs": {
+  "words": [
+   "refusal"
+  ],
+  "via": "skills/unchore-defend/scripts/refusal-words.json",
+  "literals": [
+   "/(도와드릴 수 없|도와드리기 어렵|제공할 수 없|제공해 드릴 수 없|할 수 없습니다|하기 어렵습니다|도움을 드릴 수 없|can'?t (help|assist|provide)|cannot (help|assist|provide|comply)|i'?m (sorry|not able|unable)|against (my|our|the) (policy|guidelines)|i (can not|cannot) )/i"
+  ]
+ },
+ "skills/unchore-recipes/scripts/run.mjs": {
+  "koreanOnly": "built copy of lib/recipes (pnpm skills) — Korea-only recipes",
+  "literals": [
+   "danawa_lowest(query, must_words, min_price) — lowest price for a product in Korea. must_words = words that must be in the product name (model core); min_price = a price the real product can't be below (filters cases/accessories). e.g. {\"query\":\"에어팟 프로 3\",\"must_words\":[\"에어팟프로3\"],\"min_price\":250000}.",
+   "news(query, lang) — newest headlines for a topic (Google News). e.g. {\"query\":\"전세사기\",\"lang\":\"ko\"}.",
+   "page_watch(url, must_words) — reads a public web page and returns the first line containing ALL must_words (e.g. a notice board or a product page). Pick words from the page text itself (a product or notice name) — prices drawn by scripts may not be in it. Use when a site has no API. e.g. {\"url\":\"https://example.com/notice\",\"must_words\":[\"모집\"]}.",
+   "에어팟 프로 3",
+   "에어팟프로3",
+   "원 (",
+   "한국어"
+  ]
+ },
+ "worker/recipes.mjs": {
+  "koreanOnly": "Korea-only recipe (Danawa product names and prices in won) · Meta Ad Library page labels (the worker browser is ko-KR) — page text we read, not something users say",
+  "literals": [
+   " 페이지는 ",
+   "/(\\d{4})\\.\\s*(\\d{1,2})\\.\\s*(\\d{1,2})\\.에 게재 시작함/",
+   "/₩([\\d,]+)부터/",
+   "/결과\\s*~?\\s*([\\d,]+)\\s*개/",
+   "/라이브러리 ID:|Library ID:/",
+   "/최저가\\s*₩([\\d,]+)/",
+   "c타입",
+   "개통",
+   "갤럭시",
+   "거치대",
+   "공시",
+   "광고",
+   "광고 상세 정보 보기",
+   "기기변경",
+   "렌탈",
+   "리퍼",
+   "맥북",
+   "모두 거부",
+   "미니",
+   "번호이동",
+   "보호",
+   "스트랩",
+   "아이패드",
+   "아이폰",
+   "애플워치",
+   "액세서리",
+   "약정",
+   "에어",
+   "에어팟",
+   "에어팟 프로 3",
+   "에어팟프로3",
+   "완납",
+   "요금제",
+   "울트라",
+   "원",
+   "원 (Danawa)",
+   "이어버드 단품",
+   "이어팁",
+   "중고",
+   "충전기",
+   "커버",
+   "케이블",
+   "케이스",
+   "타입c",
+   "프로",
+   "필름",
+   "한쪽",
+   "해외"
+  ]
+ },
+ "lib/voice/barge.ts": {
+  "words": [
+   "yes_short",
+   "stop_bare"
+  ],
+  "literals": [
+   "/^(네|예|응|어|음|아|그|저|좀|뭐|이제|yes|yeah|yep|ok|okay|uh|um|hmm|oh|so|well)$/i",
+   "/^(잠깐|잠깐만|잠깐만요|잠시만|잠시만요|그만|그만요|멈춰|멈춰요|스톱|아니|아니요|아뇨|wait|stop|hold on|no)$/i",
+   "/^(주세요|좀|please|now)$/i"
+  ]
+ },
+ "lib/time-pick.ts": {
+  "words": [
+   "yes_short",
+   "remind_ask"
+  ],
+  "literals": [
+   "/켜\\s*(줘|주세요|주실|줄래)|\\b(turn|switch|set) (it |that |this )?(on|up)\\b|\\b(yes|yeah|ok(ay)?|sure|sounds good|do it|go ahead)\\b|^(네|예|응|좋아요|그래요|진행해)[.!~\\s]*$/i"
+  ]
+ },
+ "lib/tools/ad-check.ts": {
+  "koreanOnly": "Korean advertising-law wording (표시광고법) checked next to the English rules — a Korea-specific legal check on ad copy, not something members say",
+  "literals": [
+   "/(\\d+\\s*%\\s*(할인|세일|싸)|\\d+\\s*%\\s*off\\b)/gi",
+   "/(돈\\s*버는|수익|부업|재테크|make money|passive income|earn \\$?\\d|side hustle|get rich)/gi",
+   "/(세계\\s*최초|국내\\s*최초|100\\s*%|백프로|완벽(하게|한)|무조건|보장(합니다|해)|기적|world'?s first|\\bguaranteed?\\b|\\bmiracle\\b|\\bperfect\\b|\\bbest ever\\b)/gi",
+   "/(오늘만|내일까지|이번\\s*주까지|마감\\s*임박|선착순|today only|ends tomorrow|last chance|while supplies last)/gi",
+   "/(좋아진다|좋아져|개선(된|돼|한다)|회복(된|돼)|치료|낫는|낫습|완치|재생(된|돼)|미백\\s*효과|주름이?\\s*(펴|사라)|통증이?\\s*(사라|없어)|\\bcures?\\b|\\bheals?\\b|\\btreats?\\b|reverses? (aging|wrinkles)|eliminates? (pain|wrinkles)|clinically proven)/gi",
+   "Unprovable superlatives break advertising law (Korea: 표시광고법; US: FTC). Use a fact you can show."
+  ]
+ },
+ "lib/tools/run.ts": {
+  "words": [
+   "yes_short",
+   "no_short"
+  ],
+  "literals": [
+   "/\\b(no|not|don'?t|stop|wait|cancel|but|first)\\b|아니|말고|하지\\s*마|멈춰|잠깐|취소|근데|하지만|먼저/i",
+   "/^\\s*(yes|yep|yeah|ok|okay|sure|go ahead|do it|confirm|confirmed|please do|proceed|예|네|넵|응|어|그래|좋아|좋아요|진행|진행해|해\\s*줘|해\\s*주세요|하세요|맞아|맞아요|はい|お願いします|是|好|好的|可以|确认|sí|si|vale|de acuerdo|oui|d'accord|ja|genau|sim|да|có|được|ya|oke|ใช่|ตกลง|نعم|हाँ|हां|evet|tak|ano|igen|ναι|כן)(?=[\\s!.,。！、~]|$)/i",
+   "/([?？.!»」)]|\\s)\\s*(?:yes|ok|예|네|넵|はい|是|oui|sí|ja|да)[\\s.!~]*$/i"
+  ]
+ },
+ "worker/tools.mjs": {
+  "koreanOnly": "pay/send/delete button labels found on Korean sites, next to the English and Japanese ones — words on web pages, not something members say",
+  "literals": [
+   "/(pay|payment|checkout|check out|buy|purchase|place (your )?order|order now|subscribe|submit|send|post|publish|delete|remove|cancel (my )?(subscription|order|account)|unsubscribe|transfer|withdraw|sign (the )?contract|agree and|book now|reserve|결제|구매|주문|구독|제출|보내기|전송|발송|등록|게시|올리기|삭제|지우기|탈퇴|해지|취소하기|송금|이체|출금|계약|동의하고|예약하기|購入|注文|支払|送信|削除|予約|购买|下单|支付|提交|发送|删除|预订|comprar|pagar|enviar|eliminar|acheter|payer|envoyer|supprimer|kaufen|bezahlen|senden|löschen)/i"
+  ]
+ },
+ "lib/computers.ts": {
+  "words": [
+   "stop_bare"
+  ],
+  "literals": [
+   "/^\\s*(멈춰|멈춰\\s*줘|멈춰\\s*주세요|그만|그만해|그만해\\s*줘|중지|정지|취소|stop|cancel)\\s*[.!。]?\\s*$/i"
+  ]
+ },
+ "lib/call-intake.ts": {
+  "koreanOnly": "the call-recording file name prefix Samsung phones write in Korean, stripped to read who called — a file-name mark, not something users say",
+  "literals": [
+   "/^(통화\\s*녹음|Call\\s*recording|Recording)[\\s_-]*/i"
+  ]
+ },
+ "lib/remind-edit.ts": {
+  "koreanOnly": "the title:/제목: mark the AI writes",
+  "literals": [
+   "/^\\s*(?:title|제목)\\s*[:：]\\s*(.+)\\n/i"
+  ]
+ },
+ "lib/yes-no.ts": {
+  "koreanOnly": "Korean yes-no question endings and question words the AI writes in its own Korean answer (shape of the question, not user command words); Korean decide/secret box marks",
+  "literals": [
+   "/<<<|```\\s*(?:decide|decision|secret|결정|비밀값)\\b|\\[\\[(?:approve|confirm)/i",
+   "/(?:까요|습니까|실래요|주시겠어요)\\s*[?？]\\s*[)\"'”’]*$/",
+   "/어떤|어떻게|무엇|뭐|뭘|어느|언제|몇|누구|어디|왜|얼마|아니면/",
+   "/예\\s*[·/,]\\s*아니오|네\\s*[·/,]\\s*아니요|「(?:예|네)」\\s*(?:또는|나|이나)\\s*「아니(?:오|요)」/"
+  ]
+ },
+ "lib/voice/unrepeat.ts": {
+  "koreanOnly": "Korean filler syllables a speech recognizer stutters on (a repeat, not a word) — not something users type as a command",
+  "literals": [
+   "네예응어음아그저뭐좀자"
+  ]
+ }
+}

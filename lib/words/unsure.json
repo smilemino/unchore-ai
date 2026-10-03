@@ -1,0 +1,352 @@
+{
+ "am": [
+  "አላውቅም",
+  "እርግጠኛ አይደለሁም",
+  "ማረጋገጥ አልቻልኩም"
+ ],
+ "ar": [
+  "لا أعرف",
+  "لست متأكد",
+  "لست متأكدا",
+  "لم أتمكن من التحقق",
+  "لم أجد معلومات"
+ ],
+ "az": [
+  "bilmirəm",
+  "əmin deyiləm",
+  "təsdiq edə bilmədim",
+  "məlumat tapa bilmədim"
+ ],
+ "bg": [
+  "не знам",
+  "не съм сигурен",
+  "не съм сигурна",
+  "не успях да потвърдя",
+  "не намерих информация"
+ ],
+ "bn": [
+  "আমি জানি না",
+  "আমি নিশ্চিত নই",
+  "নিশ্চিত করতে পারিনি",
+  "তথ্য খুঁজে পাইনি"
+ ],
+ "cs": [
+  "nevím",
+  "nejsem si jist",
+  "nejsem si jistá",
+  "nepodařilo se mi ověřit",
+  "nenašel jsem informace"
+ ],
+ "da": [
+  "jeg ved det ikke",
+  "jeg er ikke sikker",
+  "kunne ikke bekræfte",
+  "kunne ikke finde oplysninger"
+ ],
+ "de": [
+  "ich weiß es nicht",
+  "ich bin mir nicht sicher",
+  "konnte ich nicht überprüfen",
+  "konnte ich nicht bestätigen",
+  "keine informationen gefunden"
+ ],
+ "el": [
+  "δεν ξέρω",
+  "δεν είμαι σίγουρος",
+  "δεν είμαι σίγουρη",
+  "δεν μπόρεσα να επιβεβαιώσω",
+  "δεν βρήκα πληροφορίες"
+ ],
+ "es": [
+  "no lo sé",
+  "no estoy seguro",
+  "no estoy segura",
+  "no pude confirmar",
+  "no pude verificar",
+  "no encontré información"
+ ],
+ "et": [
+  "ma ei tea",
+  "ma ei ole kindel",
+  "ei suutnud kinnitada",
+  "ei leidnud teavet"
+ ],
+ "fa": [
+  "نمی‌دانم",
+  "نمیدانم",
+  "مطمئن نیستم",
+  "نتوانستم تأیید کنم",
+  "اطلاعاتی پیدا نکردم"
+ ],
+ "fi": [
+  "en tiedä",
+  "en ole varma",
+  "en pystynyt vahvistamaan",
+  "en löytänyt tietoa"
+ ],
+ "fil": [
+  "hindi ko alam",
+  "hindi ako sigurado",
+  "hindi ko ma-verify",
+  "hindi ko makumpirma"
+ ],
+ "fr": [
+  "je ne sais pas",
+  "je ne suis pas sûr",
+  "je ne suis pas sûre",
+  "je n'ai pas pu vérifier",
+  "je n'ai pas pu confirmer"
+ ],
+ "he": [
+  "אני לא יודע",
+  "אני לא יודעת",
+  "אני לא בטוח",
+  "אני לא בטוחה",
+  "לא הצלחתי לאמת"
+ ],
+ "hi": [
+  "मुझे नहीं पता",
+  "मुझे यकीन नहीं",
+  "पुष्टि नहीं कर सका",
+  "जानकारी नहीं मिली"
+ ],
+ "hr": [
+  "ne znam",
+  "nisam siguran",
+  "nisam sigurna",
+  "nisam mogao potvrditi",
+  "nisam pronašao informacije"
+ ],
+ "hu": [
+  "nem tudom",
+  "nem vagyok biztos",
+  "nem tudtam ellenőrizni",
+  "nem találtam információt"
+ ],
+ "hy": [
+  "չգիտեմ",
+  "վստահ չեմ",
+  "չկարողացա հաստատել"
+ ],
+ "id": [
+  "saya tidak tahu",
+  "saya tidak yakin",
+  "tidak dapat memastikan",
+  "tidak dapat memverifikasi",
+  "tidak menemukan informasi"
+ ],
+ "is": [
+  "ég veit það ekki",
+  "ég er ekki viss",
+  "gat ekki staðfest"
+ ],
+ "it": [
+  "non lo so",
+  "non sono sicuro",
+  "non sono sicura",
+  "non sono riuscito a verificare",
+  "non ho trovato informazioni"
+ ],
+ "ja": [
+  "わかりません",
+  "分かりません",
+  "確認が必要",
+  "確認できませんでした",
+  "確かではありません"
+ ],
+ "ka": [
+  "არ ვიცი",
+  "დარწმუნებული არ ვარ",
+  "ვერ დავადასტურე"
+ ],
+ "kk": [
+  "білмеймін",
+  "сенімді емеспін",
+  "растай алмадым",
+  "ақпарат таба алмадым"
+ ],
+ "km": [
+  "ខ្ញុំមិនដឹង",
+  "ខ្ញុំមិនប្រាកដ",
+  "មិនអាចបញ្ជាក់"
+ ],
+ "lo": [
+  "ຂ້ອຍບໍ່ຮູ້",
+  "ບໍ່ແນ່ໃຈ",
+  "ບໍ່ສາມາດຢືນຢັນ"
+ ],
+ "lt": [
+  "nežinau",
+  "nesu tikras",
+  "nesu tikra",
+  "nepavyko patvirtinti",
+  "neradau informacijos"
+ ],
+ "lv": [
+  "es nezinu",
+  "neesmu pārliecināts",
+  "neesmu pārliecināta",
+  "nevarēju apstiprināt"
+ ],
+ "mk": [
+  "не знам",
+  "не сум сигурен",
+  "не сум сигурна",
+  "не успеав да потврдам"
+ ],
+ "mn": [
+  "би мэдэхгүй",
+  "итгэлгүй байна",
+  "баталгаажуулж чадсангүй"
+ ],
+ "ms": [
+  "saya tidak tahu",
+  "saya tidak pasti",
+  "tidak dapat mengesahkan",
+  "tidak menemui maklumat"
+ ],
+ "my": [
+  "မသိပါ",
+  "မသေချာပါ",
+  "အတည်မပြုနိုင်"
+ ],
+ "nb": [
+  "jeg vet ikke",
+  "jeg er ikke sikker",
+  "kunne ikke bekrefte",
+  "fant ingen informasjon"
+ ],
+ "ne": [
+  "मलाई थाहा छैन",
+  "म निश्चित छैन",
+  "पुष्टि गर्न सकिनँ"
+ ],
+ "nl": [
+  "ik weet het niet",
+  "ik weet niet zeker",
+  "ik ben niet zeker",
+  "kon ik niet bevestigen",
+  "kon ik niet controleren"
+ ],
+ "pl": [
+  "nie wiem",
+  "nie jestem pewien",
+  "nie jestem pewna",
+  "nie udało mi się potwierdzić",
+  "nie znalazłem informacji"
+ ],
+ "pt": [
+  "não sei",
+  "não tenho certeza",
+  "não consegui confirmar",
+  "não consegui verificar",
+  "não encontrei informações"
+ ],
+ "ro": [
+  "nu știu",
+  "nu sunt sigur",
+  "nu sunt sigură",
+  "nu am putut confirma",
+  "nu am găsit informații"
+ ],
+ "ru": [
+  "я не знаю",
+  "не уверен",
+  "не уверена",
+  "не смог проверить",
+  "не удалось подтвердить",
+  "не нашёл информации"
+ ],
+ "si": [
+  "මම දන්නේ නැහැ",
+  "මට විශ්වාස නැහැ",
+  "තහවුරු කළ නොහැකි"
+ ],
+ "sk": [
+  "neviem",
+  "nie som si istý",
+  "nie som si istá",
+  "nepodarilo sa mi overiť"
+ ],
+ "sl": [
+  "ne vem",
+  "nisem prepričan",
+  "nisem prepričana",
+  "nisem mogel potrditi"
+ ],
+ "sq": [
+  "nuk e di",
+  "nuk jam i sigurt",
+  "nuk jam e sigurt",
+  "nuk mund ta konfirmoj"
+ ],
+ "sr": [
+  "не знам",
+  "нисам сигуран",
+  "нисам сигурна",
+  "ne znam",
+  "nisam siguran"
+ ],
+ "sv": [
+  "jag vet inte",
+  "jag är inte säker",
+  "kunde inte bekräfta",
+  "hittade ingen information"
+ ],
+ "sw": [
+  "sijui",
+  "sina uhakika",
+  "sikuweza kuthibitisha",
+  "sikupata taarifa"
+ ],
+ "th": [
+  "ไม่ทราบ",
+  "ไม่แน่ใจ",
+  "ไม่สามารถยืนยัน",
+  "ต้องตรวจสอบ"
+ ],
+ "tr": [
+  "bilmiyorum",
+  "emin değilim",
+  "doğrulayamadım",
+  "bilgi bulamadım"
+ ],
+ "uk": [
+  "я не знаю",
+  "не впевнений",
+  "не впевнена",
+  "не вдалося підтвердити",
+  "не знайшов інформації"
+ ],
+ "ur": [
+  "مجھے نہیں معلوم",
+  "مجھے یقین نہیں",
+  "تصدیق نہیں کر سکا"
+ ],
+ "uz": [
+  "bilmayman",
+  "ishonchim komil emas",
+  "tasdiqlay olmadim",
+  "ma'lumot topa olmadim"
+ ],
+ "vi": [
+  "tôi không biết",
+  "tôi không chắc",
+  "không thể xác nhận",
+  "không tìm thấy thông tin"
+ ],
+ "zh-CN": [
+  "我不知道",
+  "我不确定",
+  "无法确认",
+  "需要确认",
+  "没有找到相关信息"
+ ],
+ "zh-TW": [
+  "我不知道",
+  "我不確定",
+  "無法確認",
+  "需要確認",
+  "沒有找到相關資訊"
+ ]
+}

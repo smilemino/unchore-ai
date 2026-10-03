@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+/* 어두운 화면은 html 의 dark 표시로 켠다(설정 › 화면 밝기 — 밝게·어둡게·시스템 따라) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-page: var(--c-page);
+  --color-panel: var(--c-panel);
+  --color-sel: var(--c-sel);
+  --color-pill: var(--c-pill);
+  --color-pill-2: var(--c-pill-2);
+  --color-bubble: var(--c-bubble);
+  --color-codebg: var(--c-codebg);
+  --color-surface: var(--c-surface);
+  --color-hover: var(--c-hover);
+  --color-hover-2: var(--c-hover-2);
+  --color-hover-3: var(--c-hover-3);
+  --color-warn-bg: var(--c-warn-bg);
+  --color-warn-fg: var(--c-warn-fg);
+  --color-ink: var(--c-ink);
+  --color-on-ink: var(--c-on-ink);
+  --color-fg: var(--c-fg);
+  --color-fg-strong: var(--c-fg-strong);
+  --color-fg-2: var(--c-fg-2);
+  --color-fg-3: var(--c-fg-3);
+  --color-muted: var(--c-muted);
+  --color-muted-2: var(--c-muted-2);
+  --color-subtle: var(--c-subtle);
+  --color-faint: var(--c-faint);
+  --color-faint-2: var(--c-faint-2);
+  --color-faint-3: var(--c-faint-3);
+  --color-accent: var(--c-accent);
+  --color-line: var(--c-line);
+  --color-line-2: var(--c-line-2);
+  --color-line-3: var(--c-line-3);
+  --color-line-soft: var(--c-line-soft);
+  --color-on-code: var(--c-on-code);
+  --color-codeblock: var(--c-codeblock);
+  --color-accent-bg: var(--c-accent-bg);
+}
+/* 화면 색 이름표 — 밝은 화면(기본). 어두운 화면 값은 아래 .dark */
+:root {
+  color-scheme: light;
+  --c-page: #f7f6f2;
+  --c-panel: #efede6;
+  --c-sel: #e3e0d6;
+  --c-pill: #ebe8df;
+  --c-pill-2: #eeeeee;
+  --c-bubble: #e7e4da;
+  --c-codebg: #eceae4;
+  --c-surface: #ffffff;
+  --c-hover: #f3f1ea;
+  --c-hover-2: #f0eee8;
+  --c-hover-3: #fafafa;
+  --c-warn-bg: #fff3c4;
+  --c-warn-fg: #8a6d00;
+  --c-ink: #1f1f1f;
+  --c-on-ink: #ffffff;
+  --c-fg: #1f1f1f;
+  --c-fg-strong: #000000;
+  --c-fg-2: #444444;
+  --c-fg-3: #555555;
+  --c-muted: #666666;
+  --c-muted-2: #6b6b6b;
+  --c-subtle: #777777;
+  --c-faint: #888888;
+  --c-faint-2: #999999;
+  --c-faint-3: #aaaaaa;
+  --c-accent: #2a5db0;
+  --c-line: #d9d6cc;
+  --c-line-2: #cccccc;
+  --c-line-3: #dddddd;
+  --c-line-soft: #e6e3da;
+  --c-on-code: #f3f3f3;
+  --c-codeblock: #1f1f1f;
+  --c-accent-bg: #e8eef8;
+}
+/* 어두운 화면 — 설정 › 화면 밝기에서 「어둡게」 또는 「시스템 따라」(기기가 어두운 모드일 때). html 에 dark 가 붙는다 */
+.dark {
+  color-scheme: dark;
+  --c-page: #262624;
+  --c-panel: #1f1e1d;
+  --c-sel: #3a3936;
+  --c-pill: #3a3936;
+  --c-pill-2: #3a3a3a;
+  --c-bubble: #3a3936;
+  --c-codebg: #3a3936;
+  --c-surface: #30302e;
+  --c-hover: #3a3936;
+  --c-hover-2: #3a3936;
+  --c-hover-3: #34332f;
+  --c-warn-bg: #4a3f10;
+  --c-warn-fg: #e0c060;
+  --c-ink: #ececec;
+  --c-on-ink: #1f1f1f;
+  --c-fg: #ececec;
+  --c-fg-strong: #ffffff;
+  --c-fg-2: #d4d4d4;
+  --c-fg-3: #c8c8c8;
+  --c-muted: #b4b4b4;
+  --c-muted-2: #b0b0b0;
+  --c-subtle: #a3a3a3;
+  --c-faint: #8f8f8f;
+  --c-faint-2: #7f7f7f;
+  --c-faint-3: #707070;
+  --c-accent: #8fb0ec;
+  --c-line: #4a4945;
+  --c-line-2: #55544f;
+  --c-line-3: #4d4c48;
+  --c-line-soft: #3d3c39;
+  --c-on-code: #f3f3f3;
+  --c-codeblock: #141413;
+  --c-accent-bg: #1f2a3d;
+}
+html, body { height: 100%; }
+body { @apply bg-page text-fg antialiased; font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif; }
+/* Chinese characters look different in each language's fonts — use the reader's own (a Korean font first draws Japanese in Korean shapes). */
+html:lang(ja) body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, "Segoe UI", sans-serif; }
+html:lang(zh-CN) body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif; }
+html:lang(zh-TW) body { font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Segoe UI", sans-serif; }
+/* 띄어쓰기 없는 긴 글자(경로·작업번호·주소)도 화면 폭에서 줄바꿈 — 대화 칸이 옆으로 넓어져 가로 막대가 생기지 않게(2026-09-27 대표 「선이 진해 정신 없다」).
+   표 칸은 뺀다 — 넓은 표는 표 상자 안에서만 옆으로 민다(Markdown.tsx table-scroll). */
+.md { overflow-wrap: anywhere; }
+.md :where(table) { overflow-wrap: normal; }
+.md :where(p) { @apply my-2 leading-7; }
+.md :where(h1) { @apply text-xl font-bold mt-4 mb-2; }
+.md :where(h2) { @apply text-lg font-bold mt-4 mb-2; }
+.md :where(h3) { @apply font-bold mt-3 mb-1; }
+.md :where(ul) { @apply list-disc pl-6 my-2; }
+.md :where(ol) { @apply list-decimal pl-6 my-2; }
+.md :where(li) { @apply my-1; }
+.md :where(h4, h5, h6) { @apply font-semibold mt-3 mb-1; }
+.md :where(hr) { @apply my-4 border-t border-line; }
+.md :where(img) { @apply max-w-full rounded-lg my-2; }
+/* 할 일 목록([ ]·[x])은 동그라미 점을 빼고 체크상자만 보인다 — 클로드 앱과 같게 */
+.md :where(li:has(> input[type="checkbox"])) { @apply list-none -ml-5; }
+.md :where(input[type="checkbox"]) { @apply mr-1 align-middle; }
+.md :where(pre) { @apply text-sm; }
+.md :where(code):not(pre code) { @apply bg-codebg rounded px-1 text-[0.92em]; }
+.md :where(table) { @apply border-collapse my-2 text-sm; }
+.md :where(th, td) { @apply border border-line px-2 py-1 align-top; }
+.md :where(blockquote) { @apply border-l-4 border-line pl-3 text-fg-3 my-2; }
+.md :where(a) { @apply underline text-accent; }
+/* 답을 만드는 동안 — 마지막 줄 끝에 깜빡이는 커서(클로드 앱과 같은 자리), 아직 글자가 없으면 깜빡이는 점 */
+@keyframes soul-blink { 0%, 45% { opacity: 1; } 55%, 100% { opacity: 0; } }
+.md-streaming > :last-child::after { content: ""; display: inline-block; width: 2px; height: 1em; margin-left: 2px; vertical-align: -0.15em; background: currentColor; animation: soul-blink 1s step-end infinite; }
+.soul-dot { @apply inline-block w-2 h-2 rounded-full bg-fg; animation: soul-blink 1s step-end infinite; }
+textarea { field-sizing: content; }
+/* 폰에서 오른쪽으로 밀면 대화 목록이 열린다(components/Shell.tsx) — 크롬이 그 손짓을 «뒤로 가기»로 가져가지 않게 한다.
+   (시험에서 실제로 목록이 열렸다가 손을 떼는 순간 앞 화면으로 넘어갔다. 아이폰 사파리 가장자리 «뒤로»는 시스템 손짓이라 못 막는다) */
+html, body { overscroll-behavior-x: none; }
+
+/* 누를 수 있는 것에 마우스를 올리면 손가락 모양 — Tailwind 4 는 단추 기본 모양을 화살표로 바꿨다(4.0 안내 「Buttons use the default cursor」).
+   한 곳에서 전부: 단추·링크·고르기 상자·펼치기·파일 고르기 라벨·체크 상자. 못 누르는(disabled) 단추는 화살표 그대로. */
+@layer base {
+  button:not(:disabled), [role="button"]:not([aria-disabled="true"]), a[href], select:not(:disabled), summary,
+  input[type="checkbox"]:not(:disabled), input[type="radio"]:not(:disabled), label:has(> input[type="file"]) { cursor: pointer; }
+}
+
+/* 스크롤 막대는 아주 얇고 옅게 — 짙은 막대가 화면을 어지럽힌다(2026-09-27 대표). 폰은 원래 겹쳐 뜨는 막대라 달라지지 않는다. */
+* { scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--c-line) 70%, transparent) transparent; }
+
+/* 「밤하늘」 테마(2026-09-28 · 깃허브 omarchy 의 테마 한 장 방식 · Tokyo Night 계열 색) — 어둡게 위에 바탕 색만 푸른빛으로 덮는다 */
+.dark.theme-night, .dark.night {
+  --c-page: #1a1b26;
+  --c-panel: #16161e;
+  --c-surface: #1f2335;
+  --c-sel: #292e42;
+  --c-pill: #292e42;
+  --c-pill-2: #2f344d;
+  --c-bubble: #292e42;
+  --c-codebg: #1f2335;
+  --c-hover: #292e42;
+  --c-hover-2: #292e42;
+  --c-hover-3: #24283b;
+}
+
+/* Unchore — copy and decision boxes (same look as AI Soul's) */
+/* Korean keeps words whole (keep-all); Japanese, Chinese, Thai, Lao, Khmer and Burmese have no spaces and must break inside
+   words or they run off the screen (2026-09-30, 58 languages). Long words in other languages wrap instead of overflowing. */
+body { word-break: normal; overflow-wrap: break-word; }
+html:lang(ko) body { word-break: keep-all; }
+.md pre { background: var(--c-codeblock); color: var(--c-on-code); padding: 0.8em; border-radius: 8px; overflow-x: auto; }
+.md pre code { background: none; padding: 0; }
+.box-copy { border: 1px solid var(--c-line); background: var(--c-surface); border-radius: 12px; margin: 0.7em 0; }
+.box-copy .box-body { white-space: pre-wrap; padding: 0.8em 1em; }
+.box-decide { border: 2px solid #eab308; background: var(--c-warn-bg); color: var(--c-fg); border-radius: 12px; margin: 0.9em 0; }
+.box-decide .box-body { white-space: pre-wrap; padding: 0.7em 1em 0.9em; }
+/* the decision card keeps its bold and lists (AI Soul Markdown.tsx DecisionBox) — markdown handles the line breaks */
+.box-decide .box-body.box-md { white-space: normal; }
+.box-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 0.45em 0.8em; border-bottom: 1px solid var(--c-line); font-size: 0.82em; color: var(--c-fg-2); }

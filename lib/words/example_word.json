@@ -1,0 +1,521 @@
+{
+ "am": [
+  "ለምሳሌ",
+  "ለምሳሌም",
+  "ለአብነት",
+  "ምሳሌ፡",
+  "ምሳሌ:"
+ ],
+ "ar": [
+  "مثلا",
+  "مثلاً",
+  "مثلًا",
+  "مثال:",
+  "على سبيل المثال",
+  "ع سبيل المثال",
+  "كمثال"
+ ],
+ "az": [
+  "məsələn",
+  "meselen",
+  "misal",
+  "misal üçün",
+  "misal ucun",
+  "nümunə",
+  "numune",
+  "məs.",
+  "mes."
+ ],
+ "bg": [
+  "например",
+  "напр.",
+  "пример:",
+  "примерно",
+  "като например"
+ ],
+ "bn": [
+  "যেমন",
+  "যেমনঃ",
+  "উদাহরণ",
+  "উদাহরণঃ",
+  "উদাহরণস্বরূপ"
+ ],
+ "cs": [
+  "např.",
+  "napr.",
+  "např",
+  "například",
+  "napriklad",
+  "příklad:",
+  "priklad:",
+  "kupříkladu",
+  "kuprikladu",
+  "jako třeba",
+  "jako treba"
+ ],
+ "da": [
+  "f.eks.",
+  "f.eks",
+  "f. eks.",
+  "fx",
+  "for eksempel",
+  "som eksempel",
+  "eksempel:",
+  "eks.",
+  "eksempelvis"
+ ],
+ "de": [
+  "z.b.",
+  "z.b",
+  "z. b.",
+  "zb",
+  "zum beispiel",
+  "beispiel:",
+  "beispielsweise",
+  "bspw."
+ ],
+ "el": [
+  "π.χ.",
+  "π.χ",
+  "πχ",
+  "λ.χ.",
+  "λ.χ",
+  "για παράδειγμα",
+  "για παραδειγμα",
+  "παραδείγματος χάριν",
+  "παραδειγματος χαριν",
+  "παράδειγμα:",
+  "παραδειγμα:"
+ ],
+ "es": [
+  "por ejemplo",
+  "ej.",
+  "ej:",
+  "p. ej.",
+  "p.ej.",
+  "ejemplo:",
+  "a modo de ejemplo"
+ ],
+ "et": [
+  "näiteks",
+  "naiteks",
+  "nt.",
+  "nt:",
+  "näide",
+  "naide",
+  "näide:"
+ ],
+ "fa": [
+  "مثلاً",
+  "مثلا",
+  "برای مثال",
+  "به عنوان مثال",
+  "به‌عنوان مثال",
+  "به طور مثال",
+  "برای نمونه",
+  "به عنوان نمونه",
+  "مثال:",
+  "نمونه:"
+ ],
+ "fi": [
+  "esim",
+  "esim.",
+  "esimerkiksi",
+  "esimerkki",
+  "vaikkapa"
+ ],
+ "fil": [
+  "halimbawa",
+  "halimbawa:",
+  "hal.",
+  "halimbawa na lang"
+ ],
+ "fr": [
+  "par exemple",
+  "par ex",
+  "p. ex.",
+  "p.ex.",
+  "ex :",
+  "ex:",
+  "exemple :",
+  "exemple:",
+  "comme par exemple"
+ ],
+ "he": [
+  "לדוגמה",
+  "לדוגמא",
+  "למשל",
+  "דוגמה:",
+  "דוגמא:",
+  "לדוג'",
+  "לדוג׳",
+  "לשם דוגמה",
+  "כגון"
+ ],
+ "hi": [
+  "उदाहरण",
+  "उदाहरण के लिए",
+  "उदा.",
+  "उदाहरणार्थ",
+  "जैसे कि",
+  "मिसाल के तौर पर",
+  "मसलन"
+ ],
+ "hr": [
+  "npr.",
+  "npr",
+  "na primjer",
+  "primjerice",
+  "primjer:",
+  "recimo"
+ ],
+ "hu": [
+  "pl.",
+  "pl:",
+  "például",
+  "peldaul",
+  "példa:",
+  "pelda:",
+  "például:",
+  "peldaul:"
+ ],
+ "hy": [
+  "օրինակ",
+  "օրինակ՝",
+  "օրինակի համար",
+  "օր.",
+  "օր․",
+  "ասենք"
+ ],
+ "id": [
+  "misalnya",
+  "misal",
+  "semisal",
+  "contoh",
+  "contohnya",
+  "sebagai contoh",
+  "umpamanya",
+  "mis.",
+  "cth:",
+  "cth."
+ ],
+ "is": [
+  "t.d.",
+  "td.",
+  "til dæmis",
+  "til daemis",
+  "sem dæmi",
+  "sem daemi",
+  "dæmi:",
+  "daemi:",
+  "t.a.m.",
+  "til að mynda",
+  "til ad mynda"
+ ],
+ "it": [
+  "ad esempio",
+  "per esempio",
+  "ad es.",
+  "per es.",
+  "es.",
+  "esempio:"
+ ],
+ "ja": [
+  "例:",
+  "例：",
+  "例)",
+  "例）",
+  "例えば",
+  "たとえば"
+ ],
+ "ka": [
+  "მაგალითად",
+  "მაგ.",
+  "მაგ:",
+  "მაგალითი:",
+  "მაგალითისთვის"
+ ],
+ "kk": [
+  "мысалы",
+  "мысалға",
+  "мысалга",
+  "мысал:",
+  "мәселен",
+  "маселен"
+ ],
+ "km": [
+  "ឧទាហរណ៍",
+  "ជាឧទាហរណ៍",
+  "ឧទាហរណ៍៖",
+  "ឧ."
+ ],
+ "lo": [
+  "ຕົວຢ່າງ",
+  "ຕົວຢ່າງ:",
+  "ຕົວຢ່າງເຊັ່ນ",
+  "ຍົກຕົວຢ່າງ",
+  "ເຊັ່ນ:",
+  "ຕ.ຢ"
+ ],
+ "lt": [
+  "pvz.",
+  "pvz",
+  "pvz:",
+  "pavyzdžiui",
+  "pavyzdziui",
+  "pavyzdys",
+  "pavyzdžiai",
+  "pavyzdziai",
+  "kaip pavyzdys"
+ ],
+ "lv": [
+  "piemēram",
+  "piemeram",
+  "piem.",
+  "piemērs",
+  "piemers",
+  "piemēri",
+  "piemeri"
+ ],
+ "mk": [
+  "на пример",
+  "пример:",
+  "пр.",
+  "напр.",
+  "на пр.",
+  "na primer",
+  "npr."
+ ],
+ "mn": [
+  "жишээ нь",
+  "жишээлбэл",
+  "жишээлэхэд",
+  "жишээ:",
+  "ж.нь",
+  "жнь"
+ ],
+ "ms": [
+  "contoh",
+  "contohnya",
+  "cth",
+  "misalnya",
+  "sebagai contoh"
+ ],
+ "my": [
+  "ဥပမာ",
+  "ဥပမာ -",
+  "ဥပမာ:",
+  "ဥပမာအားဖြင့်"
+ ],
+ "nb": [
+  "f.eks.",
+  "f.eks",
+  "f. eks.",
+  "feks",
+  "for eksempel",
+  "eksempel:",
+  "eks:",
+  "eksempelvis",
+  "som for eksempel"
+ ],
+ "ne": [
+  "जस्तै",
+  "उदाहरण",
+  "उदाहरणका लागि",
+  "उदाहरणको लागि",
+  "उदा.",
+  "जस्तो कि"
+ ],
+ "nl": [
+  "bijvoorbeeld",
+  "bijv.",
+  "bijv",
+  "bv.",
+  "bvb.",
+  "vb.",
+  "voorbeeld:"
+ ],
+ "pl": [
+  "np.",
+  "na przykład",
+  "na przyklad",
+  "przykładowo",
+  "przykladowo",
+  "przykład:",
+  "przyklad:",
+  "dla przykładu",
+  "dla przykladu"
+ ],
+ "pt": [
+  "por exemplo",
+  "por ex",
+  "ex:",
+  "ex.",
+  "exemplo:",
+  "exemplos:",
+  "p. ex.",
+  "p.ex."
+ ],
+ "ro": [
+  "de exemplu",
+  "de ex",
+  "ex:",
+  "exemplu:",
+  "spre exemplu",
+  "cum ar fi",
+  "de pildă",
+  "de pilda"
+ ],
+ "ru": [
+  "например",
+  "к примеру",
+  "напр.",
+  "пример:",
+  "примеры:"
+ ],
+ "si": [
+  "උදා:",
+  "උදා.",
+  "උදාහරණයක් ලෙස",
+  "උදාහරණයක් විදියට",
+  "උදාහරණයට",
+  "නිදසුනක් ලෙස",
+  "නිදර්ශනයක් ලෙස"
+ ],
+ "sk": [
+  "napr.",
+  "napríklad",
+  "napriklad",
+  "príklad:",
+  "priklad:"
+ ],
+ "sl": [
+  "npr.",
+  "npr",
+  "na primer",
+  "primer:",
+  "recimo",
+  "denimo"
+ ],
+ "sq": [
+  "p.sh.",
+  "p.sh",
+  "psh",
+  "për shembull",
+  "per shembull",
+  "shembull:"
+ ],
+ "sr": [
+  "npr",
+  "npr.",
+  "na primer",
+  "na primjer",
+  "primer:",
+  "primjer:",
+  "primera radi",
+  "нпр",
+  "на пример"
+ ],
+ "sv": [
+  "t.ex.",
+  "t.ex",
+  "t. ex.",
+  "t ex",
+  "tex",
+  "till exempel",
+  "exempelvis",
+  "som exempel",
+  "exempel:"
+ ],
+ "sw": [
+  "kwa mfano",
+  "mfano",
+  "mf.",
+  "k.m."
+ ],
+ "th": [
+  "เช่น",
+  "ตัวอย่างเช่น",
+  "ยกตัวอย่าง",
+  "ตัวอย่าง:",
+  "ตัวอย่าง"
+ ],
+ "tr": [
+  "örneğin",
+  "ornegin",
+  "mesela",
+  "örnek:",
+  "ornek:",
+  "örn.",
+  "orn.",
+  "örnek olarak",
+  "misal"
+ ],
+ "uk": [
+  "наприклад",
+  "напр.",
+  "приклад:",
+  "ось приклад",
+  "приміром",
+  "до прикладу",
+  "для прикладу",
+  "як-от"
+ ],
+ "ur": [
+  "مثال کے طور پر",
+  "مثلاً",
+  "مثلا",
+  "مثال:",
+  "misal ke taur par",
+  "masalan",
+  "maslan"
+ ],
+ "uz": [
+  "masalan",
+  "misol uchun",
+  "misol tariqasida",
+  "misol:",
+  "namuna:",
+  "масалан",
+  "мисол учун",
+  "мисол тариқасида",
+  "мисол:",
+  "намуна:"
+ ],
+ "vi": [
+  "ví dụ",
+  "vi du",
+  "ví dụ như",
+  "vi du nhu",
+  "vd",
+  "chẳng hạn",
+  "chang han",
+  "chẳng hạn như",
+  "thí dụ",
+  "thi du"
+ ],
+ "zh-CN": [
+  "例如",
+  "比如",
+  "譬如",
+  "比方说",
+  "打个比方",
+  "举例",
+  "举个例子",
+  "示例",
+  "例："
+ ],
+ "zh-TW": [
+  "例如",
+  "比如",
+  "譬如",
+  "像是",
+  "好比",
+  "舉例",
+  "舉例來說",
+  "比方說",
+  "例：",
+  "例:",
+  "範例"
+ ]
+}
